@@ -8,11 +8,12 @@
  
 # 0 Overview
 
-Wherever we begin, we and the world around us all will change with time. In subtle, complex and unpredictable ways. 
-Like the performance of a long journey, the decisions that we make will determine where we end more so than the place of our beginning.  
-Iteratively, the world will become a reflection of us, and we a reflection of the world.  
-Our pathways shall be defined by the rules of the game, both imposed and chosen, understood and misunderstood. 
-Because choosing a consensus model is choosing a fate, we believe that the nature of the consensus model chosen is extremely important. We believe it is worth the effort to build the model very carefully and very well.  
+Wherever we begin, we and the world around us all will change with time. In subtle, complex and unpredictable ways. < br />
+Like the performance of a long journey, the decisions that we make will determine where we end more so than the place of our beginning.  < br />
+Iteratively, the world will become a reflection of us, and we a reflection of the world. < br /> 
+Our pathways shall be defined by the rules of the game, both imposed and chosen, understood and misunderstood. <br />
+Because choosing a consensus model is choosing a fate, we believe that the nature of the consensus model chosen is extremely important. <br /> 
+We believe it is worth the effort to build the model very carefully and very well.  
 
 The model presented in this document is designed for premium performance, and optimum protection of PIVX future.  Years of research as well as the ideas and experience of many mathematicians, coders, and systems theorists were carefully considered and puzzled together into a document that we believe we can put a great deal of faith in.  Please bear with us as we attempt to explain the reasoning behind the model, the value proposition that it offers, and the fundamental details of it.  
 
