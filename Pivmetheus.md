@@ -1,7 +1,7 @@
 ![](https://www.hicgrp.net/wp-content/uploads/2016/02/work-in-progress-500x261.jpg)
-+# Disclaimers
+# Disclaimers
 +
-+#### While this document often makes use of the traditional word "vote", it is important to understand that it only appears to be traditional voting from the users perspective. The internal maths will be in the form of weighted network feedback. This appears to be the only means of accomplishing all of the above named goals. Therefore, it is appropriate to replace the word "vote" with a phrase such as "inform" or "informing" or "information acquirement" or "decision making event". The use of the word "vote" is for mental convenience of the reader only, and the meaning of the word shall be switched to an altered state defined by this paragraph. 
+#### While this document often makes use of the traditional word "vote", it is important to understand that it only appears to be traditional voting from the users perspective. The internal maths will be in the form of weighted network feedback. This appears to be the only means of accomplishing all of the above named goals. Therefore, it is appropriate to replace the word "vote" with a phrase such as "inform" or "informing" or "information acquirement" or "decision making event". The use of the word "vote" is for mental convenience of the reader only, and the meaning of the word shall be switched to an altered state defined by this paragraph. 
  
    # Pivmetheus consensus-proposal 
    ### Because an advanced digital assett deserves an advanced consensus model!
@@ -26,7 +26,7 @@
  
 -The model we will present is designed to respect the fundamental value model of a cryptocurrency. N^2SI  (described in detail later) It is also designed to respect the various conundrums of voting that result from currently used voting models that are starved of information. The last challenge to be managed is to curtail the arrival of common feedback loop misbehaviors that are evident in current politics as well as common feedback systems. Some explanation for the exact choices made will be given. 
  
--#### While this document often makes use of the traditional word "vote", it is important to understand that it only appears to be traditional voting from the users perspective. The internal maths will be in the form of weighted network feedback. This appears to be the only means of accomplishing all of the above named goals. Therefore, it is appropriate to replace the word "vote" with a phrase such as "inform" or "informing" or "information acquirement" or "decision making event". The use of the word "vote" is for mental convenience of the reader only, and the meaning of the word shall be switched to an altered state defined by this paragraph. 
+#### While this document often makes use of the traditional word "vote", it is important to understand that it only appears to be traditional voting from the users perspective. The internal maths will be in the form of weighted network feedback. This appears to be the only means of accomplishing all of the above named goals. Therefore, it is appropriate to replace the word "vote" with a phrase such as "inform" or "informing" or "information acquirement" or "decision making event". The use of the word "vote" is for mental convenience of the reader only, and the meaning of the word shall be switched to an altered state defined by this paragraph. 
  
 -One of the fundamental features of this model is that it offers leadership to large stake holders (and potentially developers) while simultaneously securing protection for small investors. This is the inspiration for the name "PIVX-metheus".  
 +The following issues to be balanced into this model have been chosen as follows:
@@ -129,7 +129,7 @@
  ## 2.8 General Users
  All users vote according to PIVX holdings in layers N^2 and I according to the powers (exponents) given to those layers. This includes all node holders. However, there will be a minimum holdings requirement which may change over time. Early suggestion for this number is 500 PIVs. If this number falls too low, it becomes too easy for large holders to steal N^2 vote as well as too easy for uninterested parties to influence decisions. If it rises too high, it becomes too difficult for small stake holders to acquire that voting power. 
  
-+## 2.9 {No Dancing Filter}
+## 2.9 {No Dancing Filter}
 +A consensus model deriving its voting weights simply  by what each wallet is holding at voting time would  erroneously overrepresent traders who'd only recently bought their PIVX. Value comes from those who hold their PIVs, as should the votes. A good measure for this is the 'Exponential Moving Average'.
 +The EMA has a few neat properties. If the holdings on a wallet were to suddenly jump from zero to H, the EMA would steadily respond as
 +
@@ -159,7 +159,7 @@
  
  Furthermore, there is the possibility that a large percentage of the public does not deliver information. The earlier threshold of required vote power exercised for a vote to pass was 10%.  A suggestion of 5% has been made in the interim. I believe that starting with 5% is a correct model, to assure mobility, and allowing this value to be altered as history writes something to look at. It will be appropriate to include into voting code a separable matrix structure of tuning parameters which may be both retained and updated over time so as to validate old decisions as well as make new ones. 
  
-+## 2.10 Meta-Consensus
+## 2.10 Meta-Consensus
 +It would be naive to assume the ability to anticipate all possible dynamics of a consensus system which involves complex feedback, stochastic inputs, and therefore chaotic movement. Therefore, it is prudent that there are built in procedures for adapting the consensus mechanism itself. However, since Meta-consensus is on a more abstract level, it's impact can be even more unpredictable and sensitive to change than the consensus mechanism itself. For this reason, it is necessary that controls for Meta-Consensus be even more restrictive, with high threshold (see 2.9) and limited manipulability.  
  
  ### For Meta-votes 
@@ -168,11 +168,11 @@
  In the case of meta-votes, the structure of the decision making system is in question. It's probably appropriate to have two separate meta-layers for voting.  One for the general manifesto, and a second for any other fundamental document. 
  
  
-+# 3. Implementation
+# 3. Implementation
  
-+## 3.1 Ballots and Counting
+## 3.1 Ballots and Counting
  
--## 2.10 Meta-Consensus
+## 2.10 Meta-Consensus
 -It would be naive to assume the ability to anticipate all possible dynamics of a consensus system which involves complex feedback, stochastic inputs, and therefore chaotic movement. Therefore, it is prudent that there are built in procedures for adapting the consensus mechanism itself. However, since Meta-consensus is on a more abstract level, it's impact can be even more unpredictable and sensitive to change than the consensus mechanism itself. For this reason, it is necessary that controls for Meta-Consensus be even more restrictive, with high threshold (see 2.9) and limited manipulability.  
  
 +The main issue is that voters should have no need for 'insincere voting'. Rather, they should be prompted to include enough information in their ballot that the voting algorithm can always signify their vote in the most preferable way. First 'pass to post', or basic voting, suffers because its minimal information only really supports a two party system. I expect the  many of you are already familiar with the problems of first pass to post, and may be familiar with the apparent alternatives of both 'iterative ranked' voting, and +,0,- voting, and so may wish to skip some of the following text.
@@ -259,7 +259,7 @@
  6. Add more options from 3.2 if necessary, and Re-tune parameters once again. 
  
  
--# 4 Discussion and Reference
+# 4 Discussion and Reference
 +## 4 Examples
 +There are quite a few roles the people who involve themselves with PIVX
 +may play. Whether it is one or many, these roles will determine their
@@ -295,7 +295,7 @@
 +	these people will mostly need low transaction fees, stable currency 
 +	values, and quality representation in the N^2 layer.
  
--## 4.1. Options for Optimization to be Discussed These Options Are Not Necessary, but May be Advantageous. 
+## 4.1. Options for Optimization to be Discussed These Options Are Not Necessary, but May be Advantageous. 
 +
 +	
 +Whale traders often proactively push currency value towards the
@@ -310,10 +310,10 @@
 +Suppose now, the devs from the I layer 
 +
 +
-+# 5 Discussion and Reference
+# 5 Discussion and Reference
 +
 +
-+## 5.1. Options for Optimization to be Discussed These Options Are Not Necessary, but May be Advantageous. 
+## 5.1. Options for Optimization to be Discussed These Options Are Not Necessary, but May be Advantageous. 
  They have the disadvantage of making it more difficult for people to understand the voting math. 
  
  * account snapshotting combined with exponential-curve and power law analysis and timing allows emphasizing accounts that are relatively certain to not be misrepresenting themselves
@@ -321,8 +321,8 @@
  * use of vote history to adjust vote weights
  
  
--## 4.2 Examples of History Measures for a Sytem Guidance Instrument Panel 
-+## 5.2 Examples of History Measures for a Sytem Guidance Instrument Panel 
+## 4.2 Examples of History Measures for a Sytem Guidance Instrument Panel 
+## 5.2 Examples of History Measures for a Sytem Guidance Instrument Panel 
  Some of these measures have already been implemented. 
  See:  http://www.presstab.pw/phpexplorer/PIVX/index.php,  http://pivx.masternodes.pro/
  
