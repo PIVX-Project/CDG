@@ -307,12 +307,16 @@ The N^2 voting layer is the most important voting layer, as it clearly actually 
 8. Any other accounts or classes of accounts that can be positively identified as N^2 accounts could be factored into N^2 in order to bolster the meaning and stability of the layer.
 9. Anonymous Identity Models (not under consideration at this time)
 
+## 3.4 S layer
 
-## 3.3 Data Retention
+The S layer is unique amongst the layers because holding PIVX is not proof of network support function.  Proper proof of network support function can only be acquired by evidence of masternode or staking rewards. Therefore, rather than using current PIVX holdings, we propose counting the PIVX rewarded to an address within a period of time, probably 2 weeks. Then we run that number through the same no dancing filter, or exponential moving average as the other two layers to acquire vote weight so as to substantiate that an account is participating actively over a period of time. We then offer 50% of the vote power of the S layer to masternodes and 50% of it to staking nodes.  While some discussion of creating a concept of “tokens” for accounting vote weights for this layer, we see this as unnecessary at the time, but possibly valuable for future projects. 
+
+If vote nodes become a necessity because of voter apathy, then the vote node holders would acquire 10% of the S layer such that the percentages become 45/45/10.  That 14% would not belong to accounts being represented by vote nodes, but rather to the vote node accounts themselves.  In this case, every vote node representing more than a threshold number of accounts (start with 20) and also  (start with) over 5000 PIVs would share equally with other qualifying  vote nodes the 14% of S layer vote.   
+
+## 3.5 Data Retention
 Because of the need to minimize the size of the block chain, It will be an advantage store the vote data separately from the chain. The actual vote results are crucial information and need to be on the chain.  In order to verify the legitimacy of the vote data and the chain, a hash of the vote data blocks should be stored on chain, and something like 100 of the next block creations should sign off the hash of the vote data in digital signatures. Over half of such block creation signatures chain-verifies the vote, and less than that invalidates it. The Vote data shall be retained for roughly 1 year before being archived. Vote data older than one year no longer shall be subject to scrutiny, and shall only be available from any nodes who voluntarily wish to archive the data. 
 
 
-## 3.5 Tokens
 
 ## 3.6 Onramp
 Avoiding an identity model requires extra complexity in this system, which then imposes a step-wise implementation. A reasonable ordering of the steps for implementation is as follows. This schedule should be somewhat flexible, based on the needs of other projects and availability of coding talent. 
