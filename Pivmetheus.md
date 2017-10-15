@@ -287,7 +287,7 @@ The N^2 voting layer is the most important voting layer, as it clearly actually 
 5. Slight reduction (3-10%) of staking rewards for small accounts should further deter vote stealing by large account holders.
 6. Use of delegates, DPOS and vote nodes to allow voters to be represented by those in the study, thereby reducing the effort required to vote.
 7. Allowing exchanges to vote explicitly and only in the N^2 layer would bolster the stability of the layer without breaking the N^2SI model. Many have objected to this idea. It's possible in attempt to appease such to reduce the vote weight of the exchanges. 
-8. Any other accounts or classes of accounts that can be positively identified as N^2 accounts could be factored into N^2 in order to bolster the meaning and stability of the layer.
+8. Any other accounts or classes of accounts that can be positively identified as N^2 accounts could be factored into N^2 in order to bolster the meaning and stability of the layer. An interesting option for implementing this would be to offer additional N^2 vote to public keys that show large amounts of trading.  Accomplishing this would require some careful management of network calculation math. An adequate mathematics solution could potentially raise the priority of this option. 
 9. Anonymous Identity Models (not under consideration at this time)
 
 ## 3.4 S layer
