@@ -24,6 +24,7 @@ The system should be transparent, but maintain privacy.  Voting should be as de
  
  
 ### Distribution of the Vote
+
          
 PIVX already has a decentralized, private, transparent, secure, robust, and streamlined mechanism and it already belongs to the masternodes and stakers.  The PIVX block reward system meets all these goals and since it is an existing system, the vote distribution would not be anything additional for the user to understand.  The block reward system is already well-tested as a security and incentive mechanism, so it is known to be secure and aligns with beneficial network participation. 
 
@@ -96,8 +97,12 @@ The exchange issue is a valid concern and difficult to manage without hindering 
  
  
 Created with direct help and input from:
+
 derek_hansen @derekcloud
+
 alexanderluthor
+
 a private contributor
  
-Most ideas were sourced from discussions in #governance over the past few months
+ 
+Most ideas were sourced from discussions in #governance over the past few months.  Thank you to everyone who has helped in the governance effort
