@@ -21,7 +21,7 @@ Because of special characteristics of a private exchange medium, this model requ
 
 There are many goals of the project (soon to be listed). However, the primary goals are: 
 
-A. To achieve the difficult task of successfully protecting and balancing the values of crucial sub-groups of the community, most notably the small investors. Simultaneously, we wish to protect the economic value of the system.
+A. To achieve the difficult task of successfully protecting and balancing the values of crucial sub-groups of the community, most notably the small investors. Simultaneously, we wish to protect the economic value of the system. <br />
 B. To create a system that is fair, healthy, and long lasting by eliminating the common ugly behaviors of voting/feedback/consensus systems before they get started. 
 
 From the perspective of the current Masternode owners, the shift in voting power under PIVmetheus will appear on the surface to be a loss of roughly 60% of their leverage.  However, leverage is not always such a straight forward issue.  The fact that a small group of individuals are in control of something can make that something less desirable. We expect the leverage to reappear for the Masternode owners as this model should raise the value of their holdings by means of helping to convince new investors that their investments are more safe with a model that protects them and grows their investments.  
