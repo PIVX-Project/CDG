@@ -333,6 +333,7 @@ Avoiding an identity model requires extra complexity in this system, which then 
 For vote options A,B,C,D, null and public keys labelled 1,2,3 ...  consider the following data matrix:
 
 | ID  | Status | PIVS | Filter |S%     | I vote | I%  | N^2  |N^2% | Rank Vector|
+|-----|--------|------|--------|-------|--------|-----|------|-----|------------|
 |     |        |      | Output |       |/1000   |     | Vote |     | Top First  |
 | 1   | none   | 550  | 500    | 0     | 30     |     | 42   |     | ABDNC      | 
 | 2   | none   | 5000 | 4000   | 0     | 954    |     | 145  |     | ACBND      | 
