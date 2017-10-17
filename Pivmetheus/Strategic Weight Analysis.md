@@ -30,17 +30,17 @@ Many issues, models, and proposals have been considered for the purpose of achie
 
 The fundamental model of network value:
 
-N<sup>2</sup>*S*I
+NN<sup>2</sup>*S*I
 
-where N is the number of nodes and <sup>2</sup> the number of possible connections, S the strength of the connections and I the intelligence of the connections.
+where N is the number of nodes and N<sup>2</sup> the number of possible connections, S the strength of the connections and I the intelligence of the connections.
 
 We can re-state these value dimensions with the terms:
-### Network effect (<sup>2</sup>), Network Support (S), Intelligence (I).
-Having this model of network value means we can analyze the voting feedback system as an optimization problem. According to <sup>2</sup>SI, the network value is clearly extra sensitive to the number of people using the network. Therefore, in deference to some earlier models suggested, this document assumes that protection of the <sup>2</sup> element of the network, which is primarily represented by the small investors, can not be sacrificed.
+### Network effect (N<sup>2</sup>), Network Support (S), Intelligence (I).
+Having this model of network value means we can analyze the voting feedback system as an optimization problem. According to N<sup>2</sup>SI, the network value is clearly extra sensitive to the number of people using the network. Therefore, in deference to some earlier models suggested, this document assumes that protection of the N<sup>2</sup> element of the network, which is primarily represented by the small investors, can not be sacrificed.
 
 Because of the above privacy requirement, acquiring extremely accurate representations of these three value dimensions is not possible without choosing and using cloaked identity technologies which, while under development, are not yet proven and trustable in our estimation. Therefore, we relegate the possibility of using such identity technologies to future decision making, and strategize to make due with approximations of the three value dimensions noted above.
 
-A voting layer is a mathematical entity (<sup>2</sup>, S, I ) used to calculate vote value/weight, and not to be confused with a particular type of node on the network. Simultaneously, the voting layers would have strong relationships to the types of nodes and accounts on the network because of the nature of those nodes and accounts.
+A voting layer is a mathematical entity (N<sup>2</sup>, S, I ) used to calculate vote value/weight, and not to be confused with a particular type of node on the network. Simultaneously, the voting layers would have strong relationships to the types of nodes and accounts on the network because of the nature of those nodes and accounts.
 
 #### It is important to understand that the layers are abstract in concept, and that the goal is to approximate the abstractions  successively better with time. Therefore, the original set of parameters put forth by this document is presumed to require future adjustments.
 
@@ -92,7 +92,7 @@ https://en.wikipedia.org/wiki/Dunbar's_number
 
 ## 3.5 Staking Nodes
 
-Because staking is a network support function, staking node feedback will be counted into the network support layer proportionally with the number of PIVX staked. Unless there is further information to process, Staking nodes and Masternodes may each acquire 50% of this layers vote, although this is a tunable quantity. Many have argued against using vote nodes, leaving vote nodes as a last resort for acquiring adequate vote activity in the <sup>2</sup> layer. Since vote nodes are a last resort to acquiring adequate <sup>2</sup> vote, this layer may shift if vote nodes are actually implemented so that vote node holders (not those whom they represent) acquire something like 7% of the total S layer vote.
+Because staking is a network support function, staking node feedback will be counted into the network support layer proportionally with the number of PIVX staked. Unless there is further information to process, Staking nodes and Masternodes may each acquire 50% of this layers vote, although this is a tunable quantity. Many have argued against using vote nodes, leaving vote nodes as a last resort for acquiring adequate vote activity in the N<sup>2</sup> layer. Since vote nodes are a last resort to acquiring adequate N<sup>2</sup> vote, this layer may shift if vote nodes are actually implemented so that vote node holders (not those whom they represent) acquire something like 7% of the total S layer vote.
 
 ## 3.6 Masternodes
 
@@ -112,7 +112,7 @@ Vote nodes should be allowed to implement delegated proof of stake (DPOS) or sta
 
 
 ## 3.8 General Users
-All users vote according to PIVX holdings in layers <sup>2</sup> and I according to the powers (exponents) given to those layers. This includes all node holders. However, there will be a minimum holdings requirement which may change over time. Early suggestion for this number is 500 PIVs. If this number falls too low, it becomes too easy for large holders to steal <sup>2</sup> vote as well as too easy for uninterested parties to influence decisions. If it rises too high, it becomes too difficult for small stake holders to acquire that voting power.
+All users vote according to PIVX holdings in layers N<sup>2</sup> and I according to the powers (exponents) given to those layers. This includes all node holders. However, there will be a minimum holdings requirement which may change over time. Early suggestion for this number is 500 PIVs. If this number falls too low, it becomes too easy for large holders to steal N<sup>2</sup> vote as well as too easy for uninterested parties to influence decisions. If it rises too high, it becomes too difficult for small stake holders to acquire that voting power.
 
 ## 3.9 The No Dancing Filter
 A consensus model deriving its voting weights simply  by what each wallet is holding at voting time would  erroneously overrepresent traders who'd only recently bought their PIVX. Value comes from those who hold their PIVs, as should the votes. A good measure for this is the 'Exponential Moving Average'.

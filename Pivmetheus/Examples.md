@@ -10,7 +10,7 @@
 
 For vote options A,B,C,D, null and public keys labelled 1,2,3 ...  consider the following data matrix:
 
-| ID  | Status | PIVS | Filter |S%     | I vote | I%   | N<sup>2</sup>  |N<sup>2</sup>%| Rank Vector|% total|
+| ID  | Status | PIVS | Filter |S%     | I vote | I%   | NN<sup>2</sup>  |NN<sup>2</sup>%| Rank Vector|% total|
 |-----|--------|------|--------|-------|--------|------|------          |------        |------------|-------|
 |     |        |      | Output |       |/1000   |      | Vote           |              | Top First  |       |
 | 1   | none   | 550  | 500    | 0     | 30     | 2.14 | 42             | 3.5          | ABDNC      | 5.64  |
@@ -28,9 +28,9 @@ For vote options A,B,C,D, null and public keys labelled 1,2,3 ...  consider the 
 |total|        |      | 36400  | 100   | 13972  | 100  | 1199           | 100          |            |       |
 
 
-The intended effect of power voting is clearly functioning, as visible in the differing vote percentages between I and <sup>2</sup>.
+The intended effect of power voting is clearly functioning, as visible in the differing vote percentages between I and N<sup>2</sup>.
 
-Notice that some of the system criteria don't make sense with this small of a sample size, so we will omit the 4% single account cap on the I layer. In a real vote, single account vote percentages would of course be much smaller. Also, recall that the m-node gets extra I vote and diminished <sup>2</sup> vote while checking. The vote weights are calculated from the filter output. For the S layer, the vote weights are the filter output for stakers and masternodes. Note that the filter output can not be higher than the PIV holding.
+Notice that some of the system criteria don't make sense with this small of a sample size, so we will omit the 4% single account cap on the I layer. In a real vote, single account vote percentages would of course be much smaller. Also, recall that the m-node gets extra I vote and diminished N<sup>2</sup> vote while checking. The vote weights are calculated from the filter output. For the S layer, the vote weights are the filter output for stakers and masternodes. Note that the filter output can not be higher than the PIV holding.
 
 Interpretation:
 Option C is eliminated by the S layer because it gets 50% negative (below N) from the only masternode and both stakers also placed it below N, therefore giving it another 50% negative for that layer. No other options are blocked, so the remaining options continue to the macro-vote.
@@ -91,7 +91,7 @@ below:
 
 	Using cryptos to trade either goods or services,
 	these people will mostly need low transaction fees, stable currency
-	values, and quality representation in the <sup>2</sup> layer.
+	values, and quality representation in the N<sup>2</sup> layer.
 
 
 

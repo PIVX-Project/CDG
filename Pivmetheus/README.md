@@ -38,7 +38,7 @@ Because an advanced digital asset deserves an advanced consensus model!
 
     4.1. [Ballots and Counting](./Implementation.md#41-ballots-and-counting)
 
-    4.2. [Additional Means Of Protecting the N<sup>2</sup> Vote](./Implementation.md#42-additional-means-of-protecting-the-n2-vote)
+    4.2. [Additional Means Of Protecting the NN<sup>2</sup> Vote](./Implementation.md#42-additional-means-of-protecting-the-n2-vote)
 
     4.3. [S layer](./Implementation.md#43-s-layer)
 
