@@ -37,3 +37,9 @@
     4.5. [Data Retention](./Implementation.md#45-data-retention)
 
     4.6. [Onramp](./Implementation.md#46-onramp)
+
+5. [Examples](./examples.md)
+
+    5.1. [Example Voting Math](./examples.md#51-example-voting-math)
+
+    5.2. [Scenario 1](./examples.md#52-scenario-1)
