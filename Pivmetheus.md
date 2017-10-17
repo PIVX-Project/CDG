@@ -87,7 +87,7 @@ How to keep democracy between eleven sheep and thirteen wolves with a  sheeps wa
 
 
 
-  ## 2.1 Derivation of Approach
+## 2.1 Derivation of Approach
   
 Many issues, models, and proposals have been considered for the purpose of achieving consensus regarding private cryptocurrency development.  Our model utilizes many components of these other proposals. Simpler models may have been desirable, but could not satisfy all of these important values and conditions:
 
