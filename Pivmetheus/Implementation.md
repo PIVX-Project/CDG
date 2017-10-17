@@ -5,7 +5,7 @@
 
 4.1. [Ballots and Counting](#41-ballots-and-counting)
 
-4.2. [Additional Means Of Protecting the NN<sup>2</sup> Vote](#42-additional-means-of-protecting-the-n2-vote)
+4.2. [Additional Means Of Protecting the N<sup>2</sup> Vote](#42-additional-means-of-protecting-the-n2-vote)
 
 4.3. [S layer](#43-s-layer)
 
@@ -62,7 +62,7 @@ the number of pairwise comparisons she loses. The candidates with the highest sc
 
 
 
-## 4.2 Additional Means Of Protecting the NN<sup>2</sup> Vote
+## 4.2 Additional Means Of Protecting the N<sup>2</sup> Vote
 The N<sup>2</sup> voting layer is the most important voting layer, as it clearly actually represents two dimensions according to the exponent.  Simultaneously, the N<sup>2</sup> layer is also the most difficult layer to successfully capture because capturing it means getting vote data from individuals who are small investors, who are only minimally to moderately interested in the outcome of the system. Besides potential predation from the other layers, voter apathy threatens to weaken the effectiveness of the N<sup>2</sup> voting layer.  Besides the information timing section above. NOTE without adequate protection of the N<sup>2</sup> vote, the model collapses. some options for strengthening this layer are as described below.  Some of these options are more popular than others, so they are listed in an order of reasonable implementation priority. The idea is to implement them starting at the top, and if more N<sup>2</sup> protection seems to be required, then we implement further down the list. Number six is far down the list because it is both unpopular and difficult to implement.  However, early voting count results could show it to be necessary. :
 
 1. Power voting as described above, and exponents of 0.6 and 1.66 for N<sup>2</sup> and I layers respectively.

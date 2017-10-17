@@ -10,7 +10,7 @@
 
 For vote options A,B,C,D, null and public keys labelled 1,2,3 ...  consider the following data matrix:
 
-| ID  | Status | PIVS | Filter |S%     | I vote | I%   | NN<sup>2</sup>  |NN<sup>2</sup>%| Rank Vector|% total|
+| ID  | Status | PIVS | Filter |S%     | I vote | I%   | N<sup>2</sup>  |N<sup>2</sup>%| Rank Vector|% total|
 |-----|--------|------|--------|-------|--------|------|------          |------        |------------|-------|
 |     |        |      | Output |       |/1000   |      | Vote           |              | Top First  |       |
 | 1   | none   | 550  | 500    | 0     | 30     | 2.14 | 42             | 3.5          | ABDNC      | 5.64  |

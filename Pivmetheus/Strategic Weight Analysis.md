@@ -30,7 +30,7 @@ Many issues, models, and proposals have been considered for the purpose of achie
 
 The fundamental model of network value:
 
-NN<sup>2</sup>*S*I
+N<sup>2</sup>*S*I
 
 where N is the number of nodes and N<sup>2</sup> the number of possible connections, S the strength of the connections and I the intelligence of the connections.
 
