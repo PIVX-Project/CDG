@@ -357,7 +357,7 @@ Notice that some of the system criteria don't make sense with this small of a sa
 Interpretation:
 Option C is eliminated by the S layer because it gets 50% negative (below N) from the only masternode and both stakers also placed it below N, therefore giving it another 50% negative for that layer. No other options are blocked, so the remaining options continue to the macro-vote. 
 
-Inspection reveals that N will be the obvious first loser. Therefore we can reduce our further considerations to the options A,B, and D. To simplify the calculation of the weighted copeland scores, we will combine percentages into a single percentage (% total) so that the equation looks like (W-L) * %total  where W is compare wins and L is compare loses.  
+Inspection reveals that N will be the obvious first loser. Therefore we can reduce our further considerations to the options A,B, and D. To simplify the calculation of the weighted copeland scores, we will combine percentages into a single percentage (% total) so that the equation looks like (W-L) * %total  where W is compare wins and L is compare losses.  
 
 The weighted copeland scores clearly reveal b as the next loser, leaving only A and B in the struggle for the second weighted copeland score. A eeks out as the winner with 28.147 positive. 
 
