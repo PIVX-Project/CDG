@@ -1,45 +1,85 @@
 ![](https://www.hicgrp.net/wp-content/uploads/2016/02/work-in-progress-500x261.jpg)
+# Disclaimers
+
+#### While this document often makes use of the traditional word "vote", it is important to understand that it only appears to be traditional voting from the users perspective. The internal maths will be in the form of weighted network feedback. This appears to be the only means of accomplishing all of the named goals in the document. Therefore, it is appropriate to replace the word "vote" with a phrase such as "inform" or "informing" or "information acquirement" or "decision making event". The use of the word "vote" is for mental convenience of the reader only, and the meaning of the word shall be switched to an altered state defined by this paragraph. 
 
   # Pivmetheus consensus-proposal 
   ### Because an advanced digital assett deserves an advanced consensus model!
  
+# 0 Overview
+
+Wherever we begin, we and the world around us all will change with time. In subtle, complex and unpredictable ways. <br />
+Like the performance of a long journey, the decisions that we make will determine where we end more so than the place of our beginning.  <br />
+Iteratively, the world will become a reflection of us, and we a reflection of the world. <br /> 
+Our pathways shall be defined by the rules of the game, both imposed and chosen, understood and misunderstood. <br />
+Because choosing a consensus model is choosing a fate, we believe that the nature of the consensus model chosen is extremely important. <br /> 
+We believe it is worth the effort to build the model very carefully and very well.  
+
+The model presented in this document is designed for premium performance, and optimum protection of PIVX future.  Years of research as well as the ideas and experience of many mathematicians, coders, and systems theorists were carefully considered and puzzled together into a document that we believe we can put a great deal of faith in.  Please bear with us as we attempt to explain the reasoning behind the model, the value proposition that it offers, and the fundamental details of it.  
+
+Because of special characteristics of a private exchange medium, this model requires more mathematics as well as more understanding of social systems than other models presented in order to actually deliver on its claims rather than just make them.  Nevertheless, an important part of the design is that the coding effort required should not be more than 30 to 50% higher than what might be spent on some of the other models.  Designing a consensus model, like designing software,  is something of an information game. Therefore, that coding effort will have to be spread over a long period of time, one of the required ingredients of intelligence.  Nevertheless, a functional system should appear long before it is perfected. 
+
+There are many goals of the project (soon to be listed). However, the primary goals are: 
+
+A. To achieve the difficult task of successfully protecting and balancing the values of crucial sub-groups of the community, most notably the small investors. Simultaneously, we wish to protect the economic value of the system. <br />
+B. To create a system that is fair, healthy, and long lasting by eliminating the common ugly behaviors of voting/feedback/consensus systems before they get started. 
+
+From the perspective of the current Masternode owners, the shift in voting power under PIVmetheus will appear on the surface to be a loss of roughly 60% of their leverage.  However, leverage is not always such a straight forward issue.  The fact that a small group of individuals are in control of something can make that something less desirable. We expect the leverage to reappear for the Masternode owners as this model should raise the value of their holdings by means of helping to convince new investors that their investments are more safe with a model that protects them and grows their investments.  
+
+Adding a consensus model to a crypto-currency allows it to navigate the future. The same consensus model also allows it to make mistakes, substantially change direction, and/or engage in exploitive behaviors.  A consensus model has the ability to change the currency to the point that it is hardly any more recognizable as the original model.  Furthermore, the consensus model exposes the currency model to a large set of complicated information feedback dynamics that can cause all kinds of unexpected long term problems.  This kind of problem commonly takes the form of parasitic and predator/prey dynamic, but colors and trends in decisions may also have major impacts, both positive and negative.  Because of such issues, designing a consensus model for a crypto-currency is not an easy task and should not at all be taken lightly.  The nature of the consensus model has a major impact on the nature of decisions that come out of it.  
+
+PIVmetheus is designed to provide the highest possible intelligence in its decisions. It is an instrument that uses an understanding of feedback mathematics, intelligence theory and social theory. It weighs and balances the values of differing classes of participants carefully against one another.  It hones each decision into an arrow that points towards success.  In order to do this, it uses carefully designed mathematics that will have strong abilities to actually differentiate between those differing classes of individuals without ever discovering any of their personal details.   This may sound like a bold claim, but careful examinations of the methods will reveal that it can be done.  Then, each of the three layers developed operates together like not stereo, but three angle vision on the subject matter, capable of assessing each circumstance from all three view angles.  
+
+The earlier model presented by presstab clearly had this general intention, but did not include the mechanistic required to properly achieve the goal.  Therefore, one way to view this model is that it’s presstab’s model, re-designed so that it actually works. 
+
+One of the most common issues we have come up against while designing the model is a collection of naive beliefs about human nature and what to expect out of simpler forms of consensus.  Money systems are banks waiting to be robbed. All of history is littered with endless variations of bank robbery. The 2008 housing bubble collapse which motivated the beginning of cryptocurrencies is just one of endless examples. Every time we see a bank vault, it is a reminder of that history.  Simultaneously, bank vaults have proved incapable of solving the bank robbery problem, for rob bankers are just as problematic as bank robbers.  
+
+Market gaming is an old art and profession. We have entire cities full of individuals who excel at gaming. These people play both sides of the market, buying and selling. They get together strategically in groups and use complicated collections of computer-bots, advertising, political and legal leverage, news, and now even social media to push markets up and down without substantially spending their own resources.  Bots turn markets into gambling casinos. Then, they capitalize on the fears and mistakes of large numbers of traders who do not understand that the cards have been intentionally and strategically stacked against them. Cryptos and ICOs are a hot-bed of this kind of activity, which is why China attacked the ICO market.  The public has been robbed of many billions of dollars by pump’n dump ICOs.  Currency supplies of entire nations have been repeatedly destroyed by means of market gaming. Market gaming is so extremely lucrative that it attracts and pays for high class mathematicians, IT talent, and legal talent.  It buys off the opinions of asessment experts.  It even incentivizes the destruction of large numbers of large corporations, for just as money can be made by building something … in the markets, it can be made by destroying something, or even just temporarily damaging it.  It is possible to place bets on either the rise or fall of a market in various ways, and if you can control what you are betting on, then you just might be a robber.  A voting system which lends control of an asset to a small sub-group of the owners of the asset exacerbates the possibilities of using complicated strategies to game wealth away from its proper owners.  Examination of historical records shows that PIVX its self has already fallen prey to classic “pump’n dump” strategies. 
+
+PIVmetheus is designed to put a heavy damper on such dark dynamics by allowing all participants an appropriate quantity of leverage in the system therefore denying control of the currency to small exploitive groups.  Nevertheless, may it please be understood, that cryptocurrencies will eventually require an entire garrison of protection strategies to help make the markets and the currencies safe for the public to use.  This very issue is in fact the purpose of “The Federal Reserve”, “The IMF” and other intelligence groups for their respective bodies of currency.   If installed, PIVmetheus will be a gigantic step towards making crypto-currency safe for public consumption and for the future of man kind.  PIVmetheus will make PIVX into an icon of high intelligence and value in cryptocurrency.  PIVmetheus will also continue to show the world that crypto-currencies can do it better than old, inferior currency models.  
+
+Join with us in an effort to let go of the inadequacies and misunderstandings of the past. Join with us as we build currency safety directly into the currency model its self in a fully transparent fashion. Join with us as we build a world where creation, not manipulation, is the primary value of the economic model.  And may those of us unwilling to create, change their minds and also become creators of a greater future than what can be reached with the old paradigms. 
+
 
 # 1 Abstract
-The proposal we wish to introduce at this time is intended as an upgrade for the current PIVX consensus/voting system used for passing proposals into community acceptance. This proposal keys significantly off of presstabs original 3 layer model. However, for mathematical reasons, it has been adapted for optimum balance. 
-#### This is the only model being presented that has the ability to successfully represent and protect small investors in the voting pool.  
-The issues to be balanced into the model have been chosen as follows:
 
-* Privacy
-* Simplicity for the end user
-* Protection and respect for crucial subgroups of the community 
-* Most particularly, successful inclusion of the general usership as a substantial voting influence. This is especially important, because of the squared relationship between number of people/nodes and network value, wheras the other factors are only single power. 
-* Maximization of network value and respect for the crucial resource of people in the system rather than only respect for numbers that mean nothing without people
-* Balance
-* Resistance to vote gaming
-* Protection against common weaknesses of voting systems such as those of "first past the post" voting. These weaknesses can often be abstracted as vote information starvation. See this video for a lay-person explanation of that: https://www.youtube.com/watch?v=s7tWHJfhiyo&list=PLPZwr9rnuY9pr4InUaLfjmX757UfE-DVY
-* Aggressive system tuning and protection against feedback loop parasitics. 
+This proposal is the foremost consensus model for both representing and protecting the small investors in the voting pool.
+The following issues to be balanced into this model have been chosen:
 
 
-The model we will present is designed to respect the fundamental value model of a cryptocurrency. N^2SI  (described in detail later) It is also designed to respect the various conundrums of voting that result from currently used voting models that are starved of information. The last challenge to be managed is to curtail the arrival of common feedback loop misbehaviors that are evident in current politics as well as common feedback systems. Some explanation for the exact choices made will be given. 
+1.  <span>Privacy</span>
 
-#### While this document often makes use of the traditional word "vote", it is important to understand that it only appears to be traditional voting from the users perspective. The internal maths will be in the form of weighted network feedback. This appears to be the only means of accomplishing all of the above named goals. Therefore, it is appropriate to replace the word "vote" with a phrase such as "inform" or "informing" or "information acquirement" or "decision making event". The use of the word "vote" is for mental convenience of the reader only, and the meaning of the word shall be switched to an altered state defined by this paragraph. 
+2.  <span>Simplicity for the end user</span>
 
-One of the fundamental features of this model is that it offers leadership to large stake holders (and potentially developers) while simultaneously securing protection for small investors. This is the inspiration for the name "PIVX-metheus".  
+3.  <span>Balance, protection, and respect for all groups of the
+    community</span>
 
-Note that voting systems are feedback loops that can exhibit unexpected behaviors. It is unrealistic to assume that one can construct a feedback loop and have it behave optimally from the very beginning.  Therefore it is strongly suggested to hold the voting system design as experimental for the first 10 to 15 years. This suggests strongly that for that time period, a meta-voting system be enabled which allows the voting system its self to be altered with a model that does not allow for one of the layers by its self to block the voting system edit. However, such a meta-voting system should only be activated based on references to behavior tuning issues.  Such tuning issues need to be made visible by means of building a set of system measures into a system status panel similar to what we see at this site:  http://pivx.masternodes.pro/  only much more advanced and informative. The existence of such a system status panel will for many reasons be a substantial addition the value of the cryptocurrency. 
+4.  <span>Maximation of network value. It is understood that network
+    value may have modelled by $V=N^2SI$(described in
+    detail below)</span>
+
+5.  <span>Maximization of the total utility the PIVX network provides
+    for its end users, who are the real source of its value.</span>
+
+6.  <span>Proper representiation for the general usership is of
+    particular concern, because the relationship between a social
+    networks value and the quantity\*quality of its members is
+    approximately quadratic ($N^2$).</span>
+
+7.  <span>Resistance to vote gaming, agressive system tuning, and
+    unhealthy feedback</span>
 
 
+The model presented here is designed to respect the fundamental value model of a cryptocurrency. N^2SI  (described in detail later) It is also designed to respect the various conundrums of voting that result from currently used voting models that are starved of information. The last challenge to be managed is to curtail the arrival of common feedback loop misbehaviors that are evident in current politics as well as common feedback systems. 
 
+ This document describes how a voting architecture may be capable of solving sundry known voting quandries, notably those arising from an inadequate collection of information to make proper decisions, as well as the growth of the unhealthy feedback behaviour which is already recognizable from contemporary political systems, and their tendency to extreme wealth inequality.  A major tool for handling these issues is an advanced balloting system, which allows voters to both rank their preferences, and provide negative feedback.
 
+Consensus information for PIVX denies explicit identity. It must come from the blockchain itself and be private key verifiable.  Under this architecture, it is very difficult, without sacrificing privacy, to prevent the wealthy, from gaining proportionally greater representation, since they can always feign the appearance of many small investors if they so desire. Therefore, in order to protect small investors from virtually being robbed by the wealthy, who can make stronger votes, it remains to provide an incentive for large investors to consolidate their holdings which is greater than their incentives to feign small investors. 
 
+One principal device for this is the provision of leadership opportunities for large stake holders and developers, with simultaneous ensurement of protection for small investors, hence the name "PIVmetheus". Said opportunities  arise from three layered voting. The layers will be named after the elements of the value expression N^2, S, and I. Network support nodes will have an upper hand in the second, 'S' layer, large stake holders ( perhaps developers at some point in time) in a separate 'I' layer, and the rest in the 'N^2' layer.
 
-
-
-
-
-
-
-
+An important part of this strategy is to keep multiple investor groups competing. If three maligning gold hunters are coming back from the Sierra Madre, with packs full of treasure, there is far greater security than with two, because if any member of the party were to attempt a heist, he'd be outnumbered, two to one. 
+How to keep democracy between eleven sheep and thirteen wolves with a  sheeps wardrobe? One way is to keep them in two huts, with hay fed to the first, and beef to the second. The huts vote seperately, may veto decisions, and if a wolf leaves to the sheep bin, the rest get to split his beef. 
 
 
 
@@ -49,12 +89,9 @@ Note that voting systems are feedback loops that can exhibit unexpected behavior
 
   ## 2.1 Derivation of Approach
   
-Many issues were brought up and many models and proposals considered for the purpose of achieving consensus regarding private cryptocurrency development.  We chose a model that made use of many components of other proposals that were made. Simpler models may have been desirable, but could not satisfy enough of the fundamental values needed by the system.
-These values are:
+Many issues, models, and proposals have been considered for the purpose of achieving consensus regarding private cryptocurrency development.  Our model utilizes many components of these other proposals. Simpler models may have been desirable, but could not satisfy all of these important values and conditions:
 
-
-
-The fundamental model we begin with is that of the value of a network, which is approximated by the following equation:
+The fundamental model of network value:
 
 N^2*S*I
 
@@ -62,11 +99,11 @@ where N is the number of nodes and N^2 the number of possible connections, S the
 
 We can re-state these value dimensions with the terms:  
 ### Network effect (N^2), Network Support (S), Intelligence (I).  
-The goal is to maximize the value of the network by developing a feedback model which respects and protects these dimensions of value seperately, and as accurately as possible. According to the model, clearly, the value of the network is extremely sensitive to the number of people using the network. Therefore, in deference to some earlier models suggested, this document assumes that protection of the N^2 element of the network, which is primarily represented by the small investors, can not be sacrificed. 
+Having this model of network value means we can analyze the voting feedback system as an optimization problem. According to N^2SI, the network value is clearly extra sensitive to the number of people using the network. Therefore, in deference to some earlier models suggested, this document assumes that protection of the N^2 element of the network, which is primarily represented by the small investors, can not be sacrificed. 
 
-Because of the above privacy requirement, acquiring extremely accurate representations of these three value dimensions is not possible without choosing and using cloaked identity technologies which, while under development, are not yet proven and trustable in our estimation. Therefore, we relegate the possibility of using such identity technologies to future decision making, and strategize to make due with approximations of the three value dimensions noted above. The resulting strategy looks very similar to presstab's original 3 layer proposal, but is adjusted in order to acquire some of the other values listed above. 
+Because of the above privacy requirement, acquiring extremely accurate representations of these three value dimensions is not possible without choosing and using cloaked identity technologies which, while under development, are not yet proven and trustable in our estimation. Therefore, we relegate the possibility of using such identity technologies to future decision making, and strategize to make due with approximations of the three value dimensions noted above. 
 
-It is to be noted at this point that a voting layer is just that. It is a mathematical entity (N^2, S, I ) used to calculate vote value/weight, and not to be confused with a particular type of node on the network. Simultaneously, the voting layers would have strong relationships to the types of nodes and accounts on the network because of the nature of those nodes and accounts. 
+A voting layer is a mathematical entity (N^2, S, I ) used to calculate vote value/weight, and not to be confused with a particular type of node on the network. Simultaneously, the voting layers would have strong relationships to the types of nodes and accounts on the network because of the nature of those nodes and accounts. 
 
 #### It is important to understand that the layers are abstract in concept, and that the goal is to approximate the abstractions  successively better with time. Therefore, the original set of parameters put forth by this document is presumed to require future adjustments.  
 
@@ -75,33 +112,27 @@ The Network Support value dimension is the easiest layer to represent in the sys
 For the other two layers, two approximations have been identified, which we believe should share the voting weight equally. The first approximation is the use of voting exponents. In other words, an individuals vote weight is not directly proportional to that individuals holdings, but to the individuals holdings held to an exponent power.  What this means is say for an exponent of 2, An account holding 10 pivs would get 100 votes while for an exponent of 0.5 would an account holding 10 pivs would get only 3.16 votes. The exponent effects different account sizes differently such that exponents smaller than 1 benefit small accounts while exponents greater than 1 benefit large accounts. While "quadratic voting" (exponent 0.5) is a practice of some respect historically, we can not directly follow that path for multiple reasons.  
 
 * Most significantly, the requirement for privacy dictates that simply using square root voting to protect small investors does not work because large investors could too easily game the system and pretend to be many small investors by dividing down their accounts. Therefore, to solve this problem, we merely needed to admit that protecting only small investors is a flawed concept. Benefits given to small investors need to be balanced out by benefits given to large investors. Therefore, a square root vote accompanied by a squared vote gives both small investors and large investors benefits.  The square root vote would be a good approximation for the network effect layer.  The squared vote a good approximation for the intelligence layer, since large investors should take an interest in the development of the currency intelligence, so as to benefit the value of their holdings. Giving a squared voting layer for this purpose should eliminate most motivation for players to game the layers because optimizing ones accounts to benefit the vote count for one layer simultaneously damages ones vote count for the other layer leaving the gamer little to no net benefit for gaming. 
-* The second issue with earlier quadratic voting models in circulation is that the sale of votes and redistribution of funds presents conundrums, so we simply do away with those features. 
+* The second issue with earlier quadratic voting models in circulation is that the sale of votes and redistribution of funds  presents conundrums, so we simply do away with those features. 
 * The third issue with earlier quadratic voting is that when we use squared voting as its counterpart for the benefit of large investors, we will likely have too small of a voting sample size for that layer because large holders will be able to outweigh too many smaller holders. Therefore, to aid the voting sample size problem in the squared layer, we suggest moving to exponents other than 0.5 and 2.  Using exponents of 0.6 and 1.66 should solve this problem.  
 
 #### The system will be simple for the end user to use because all of the voting math is handled by computer. The voting/feedback system will not initially require massive amounts of re-coding the system because the voting math will primarily operate on data already present in the system. 
 
 ## 2.2 Three Layers
-The reason for using three seperate layers for the voting system is that each layer can be designed to provide its own perspective on voting events. We would be deprived without having two eyes, two ears or multi-channel audio/video. If layers substantially disagree with one another on an event, then there is evidence that the proposals involved need deeper understanding and development. Aligning each of the layers with a legitimate dimension of value further tunes the voting apparatus to protect value in the system. It also shows us the dynamics of that value as we watch the voting play out over time. 
-
-To exemplify the meaning and behavior of this system, we will construct some example situations. 
+If layers substantially disagree with one another on an event, then there is evidence that the proposals involved need deeper understanding and development. Aligning each of the layers with a legitimate dimension of value further tunes the voting apparatus to protect value in the system. It also shows us the dynamics of that value as we watch the voting play out over time. 
 
 
 ## 2.3 Avoiding Information Starvation
 
-https://www.youtube.com/watch?v=s7tWHJfhiyo&list=PLPZwr9rnuY9pr4InUaLfjmX757UfE-DVY
 
-It is a fact, observable generically, that a decision making aparatus can not make the best decisions on a dearth of information. Furthermore, a system which makes optimal use of the information available to it makes quicker and more accurate decisions. The above listed video describes problems with "first past the post" voting, which are results of information starvation. Information starvation of the algorithms makes the system gameable, because it then becomes a matter of social gaming to position ones self to inject manipulated versions of missing information into the system. This is how "Tweed voting" arises. https://www.youtube.com/watch?v=PJy8vTu66tE .  It is important to be aware that highly intelligent people set up complicated means of Tweed voting that can be highly effective, but that a system with a solid foundation of information management makes it difficult to game the voting system. 
+Optimal decisions can't be made from a dearth of the information needed to accurately represent reality. . The infamous 'Tweed' declared, "I don't care who does the electing, so long as I get to do the nominating", because in a two party decision, by the time both candidates are picked, many of the important decisions have already been made. This principle remains widely and effectively exploited in complicated ways. However, proper information management makes it difficult to play these sort of tricks. For those interested, these videos provide additional information concerning "first pass to post" and Tweed tactics, respectively https://www.youtube.com/watch?v=s7tWHJfhiyo&list=PLPZwr9rnuY9pr4InUaLfjmX757UfE-DVY  https://www.youtube.com/watch?v=PJy8vTu66tE
 
-Historical voting math analysts have studied various voting systems, but normally not under this fundamental understanding. This is evident by the fact that many models of voting systems show up in the studies which are clearly information starved. First past the post voting systems as in common use today being perfect examples.  Therefore, many attempts to create information starved voting algorithms of various flavors all result in a decision making apparatus that misbehaves as is described in the first past the post voting video above.  Furthermore, it is a first step towards Tweed voting. 
+#NOTE- Questionable paragraphs- Historical voting math analysts have studied various voting systems, but normally not under this fundamental understanding. This is evident by the fact that many models of voting systems show up in the studies which are clearly information starved. First past the post voting systems as in common use today being perfect examples.  Therefore, many attempts to create information starved voting algorithms of various flavors all result in a decision making apparatus that misbehaves as is described in the first past the post voting video above.  Furthermore, it is a first step towards Tweed voting. 
 
 In a universe of "for every action, there is an equal and opposite reaction" for example, a voting system that does not include negative feedback (a negative vote) is not representing a fundamental truth about reality.  Reality literally insists on negative feedback, and will find it in whatever way necessary.  If negative feedback isn't explicitly on the ballot, then the ballot is information starved, and invites someone to find out how to play the role of negative feedback. In the first past the post voting system, Negative feedback naturally appears because of the natural narrowing of the party count down to 2. For a two party system, a vote for one party is identical to a vote against the opposing party, and nature's inherent requirement for negative feedback is filled, but at the cost of monopoly and near-monopoly over the candidate pool, Tweed voting style ( https://www.youtube.com/watch?v=PJy8vTu66tE ), which severely damages the voting system by simply removing choices that the voting pool may deeply desire.  Fortunately, PIVX was born with +/0/- voting. Therefore, this issue already partially solved, except that with just one option up for vote and yay or nay to go with it, the two-party system is already also born into the system. Therefore, vote option monopoly is expected. 
 
-To solve the two party system and vote option monopoly problem, we need a combination of +/0/- voting/feedback and the possibility of multiple vote options. Vote options meaning: "I want A or B or C, but not D". Because people can't properly manage a large number of vote options in their minds, more than four vote options may begin to become unmanageable. After long discussions, it was concluded that the best vote counting algorithm available is +/0/- iterative ranked with null option.  
+To solve the two party system and vote option monopoly problem, we need a combination of +/0/- voting/feedback and the possibility of multiple vote options. Vote options meaning: "I want A or B or C, but not D". Because people can't properly manage a large number of vote options in their minds, more than four vote options may begin to become unmanageable. After long discussions, it was concluded that for the macro-vote (the combined multi-layer vote) the best vote counting algorithm available is +/0/- iterative ranked with null option. Before the macro-vote, the individual layers act only on the +,0 and - constituents of the ballots in order to reject excessively negative options from the vote. The counting of such votes shall be described in "Ballots and Counting".  
 
-The voter is confronted with a list of options. "Do Nothing" is one of the options, and is automatically listed as a choice. The voter may then add additional options to a list of such choices as being ranked in the voters preferred order above or below "Do Nothing". Options above "Do Nothing" are counted as positive while those below are counted negative.  Those options not moved to a choices list are set to abstain. (0) The voter shows in this case neither preference nor deference for the option abstained and will neigher be weighed for nor against that option during any stage of the counting process. <br />
-For each voting layer, (with slight tuning adjustments possible) options that are dominantly listed as negative are counted as blocked (or as requiring extreme positive votes from other layers in order to pass), and may be removed from the options list. Remaining options, always including the "do nothing" option continue to the macro-vote or total group vote where all three layers vote. Each layer providing 1/3 of the total vote weight. The algorithm removes least popular (least positive and lowest ranked) options one at a time until two possible winners remain. This vote may be tuned by adding a default percentage to the "do nothing" option. At this point, votes are counted as + if a remaining option is ranked above the other option by a voter and - if a remaining option is ranked beneath the other option. If a voter does not have both final options ranked on his/her ballot, then that voter has not expressed a preference between the two possible winners, and his/her vote can not be counted. 
 
-A "Must Choose" vote may be implemented by means of removing the "Do Nothing" or Null option. 
 
 
 ## 2.4 Management of Feedback Loop Dynamic
@@ -109,9 +140,9 @@ https://www.youtube.com/watch?v=5HNmsBaVmZs
 
 The above video demonstrates that experts are concerned about government decision processes being influenced by special interest groups. What they blatantly fail to note is that 
 
-* You have multi-billion dollar decisions being made by as little as 11 people. Clearly the "gain factor" is too high, (in other words, they are controlling issues that are way too much larger than themselves) and makes the 11 people susceptible to too much influence created by the heavy monetary weight of the decision. This is a standard feedback loop problem .. or a couple of them in tandem that we might call "high impedence feedback loop" and "high gain factor".  In this Scenereo, the energy in the system is so much greater than the energy in the feedback route, that the feedback information is corrupted by the system energy, creating either distortions, or parasitic patterns, both in the case of current governing practices .. Change the committee size to 110 in stead of 11, and suddenly the group is ten times more expensive, complicated, and difficult to manipulate by special interest groups. The video goes out from the assumption that the committee size can't be questioned.  This is utter nonsense. The true problem they are fighting and don't want to admit is over-centralization. 
+* You have multi-billion dollar decisions being made by as little as 11 people. Clearly the "gain factor" is too high, which makes them  susceptible to too much influence created by the heavy monetary weight of the decision. This is a standard feedback loop problem .. or a couple of them in tandem that we might call "high impedence feedback loop" and "high gain factor".  In this Scenereo, the energy in the system is so much greater than the energy in the feedback route, that the feedback information is corrupted by the system energy, creating either distortions, or parasitic patterns, both in the case of current governing practices .. Change the committee size to 110 in stead of 11, and suddenly the group is ten times more expensive, complicated, and difficult to manipulate by special interest groups. The video goes out from the assumption that the committee size can't be questioned.  This is utter nonsense. The true problem they are fighting and don't want to admit is over-centralization. 
 
-* The tuning of the Federal Government voting feedback loop dramatically shifts with population rise because delegate to population ratio is a form of "gain factor". Feedback loop stability is extremely sensitive to loop gain factor. Roughly in the 70's they want to attribute exaggerated corporate influence on federal decisions to transparency laws. Said transparency laws may in fact benefit special interest groups more than the public because those special interest groups are able to pay lobbyists to monitor and influence committee members. However, they fail to properly note that people can't know if their delegates are representing them without transparency, and wish to set up a trusted system. This is an extremely dangerous move to make because .. remember ..  because of increased population size, the tuning of the system is no longer identical to the 1970's and we can not simply trust that the system will then reconfigure back to its 1970's behavior. They fail to consider the possibility that the rise in corporate influence on decisions is also caused by the larger and larger sums of money wielded by corporations (and other groups) doing larger and larger business with more and more people while the federal decision maker teams/committees remain the same size. Setting the federal decision body sizes in stone while the population grows exponentially is basically setting up a feedback loop that constantly re-tunes towards less and less stable numerics without apparently any voice standing up to say ... "hey, this loop is constantly de-tuning its self". We have been begging on hands and knees and praying for exactly this kind of problem to show up. These so called experts fail entirely to suggest the real solution to the problem, which is larger committes and gain factors limited to approximately dunbars number squared (22500). Interestingly, the original constitution used the number 30,000, an acceptable number, but that number was overridden when the size of congress was limited. That limitation appears from a systemstheoretical perspective to be an act of class warfare. However, it is also indistinguishable from being an act of ignorance... an accident (?) which promotes slow domination of oligarchy over time.  
+* The tuning of the Unite States Federal Government voting feedback loop (for example) dramatically shifts with population rise because delegate to population ratio is a form of "gain factor". Feedback loop stability is extremely sensitive to loop gain factor. Roughly in the 70's they want to attribute exaggerated corporate influence on federal decisions to transparency laws. Said transparency laws may in fact benefit special interest groups more than the public because those special interest groups are able to pay lobbyists to monitor and influence committee members. However, they fail to properly note that people can't know if their delegates are representing them without transparency, and wish to set up a trusted system. This is an extremely dangerous move to make because .. remember ..  because of increased population size, the tuning of the system is no longer identical to the 1970's and we can not simply trust that the system will then reconfigure back to its 1970's behavior. They fail to consider the possibility that the rise in corporate influence on decisions is also caused by the larger and larger sums of money wielded by corporations (and other groups) doing larger and larger business with more and more people while the federal decision maker teams/committees remain the same size. Setting the federal decision body sizes in stone while the population grows exponentially is basically setting up a feedback loop that constantly re-tunes towards less and less stable numerics without apparently any voice standing up to say ... "hey, this loop is constantly de-tuning its self". We have been begging on hands and knees and praying for exactly this kind of problem to show up. These so called experts fail entirely to suggest the real solution to the problem, which is larger committes and gain factors limited to approximately dunbars number squared (22500). Interestingly, the original constitution used the number 30,000, an acceptable number, but that number was overridden when the size of congress was limited. That limitation appears from a systemstheoretical perspective to be an act of class warfare. However, it is also indistinguishable from being an act of ignorance... an accident (?) which promotes slow domination of oligarchy over time.  
 
 https://en.wikipedia.org/wiki/United_States_congressional_apportionment  
 
@@ -125,12 +156,11 @@ https://en.wikipedia.org/wiki/Dunbar's_number
 
 ## 2.5 Staking Nodes
 
-Because staking is a network support function, staking node feedback will be counted into the network support layer proportionally with the number of PIVX staked. Unless there is further information to process, Staking nodes and Masternodes will each acquire 50% of this layers vote. Many have argued against using vote nodes, leaving vote nodes as a last resort for acquiring adequate vote activity in the N^2 layer. Since vote nodes are a last resort to acquiring adequate N^2 vote, this layer may shift if vote nodes are actually implemented so that vote node holders (not those whom they represent) acquire something like 7% of the total S layer vote.
+Because staking is a network support function, staking node feedback will be counted into the network support layer proportionally with the number of PIVX staked. Unless there is further information to process, Staking nodes and Masternodes may each acquire 50% of this layers vote, although this is a tunable quantity. Many have argued against using vote nodes, leaving vote nodes as a last resort for acquiring adequate vote activity in the N^2 layer. Since vote nodes are a last resort to acquiring adequate N^2 vote, this layer may shift if vote nodes are actually implemented so that vote node holders (not those whom they represent) acquire something like 7% of the total S layer vote.
 
 ## 2.6 Masternodes
 
-Masternodes currently present us with a conundrum, because they are pre-defined to be accounts of exactly 10k PIVX. Individuals won't be holding their own preferred coin numbers in those accounts. It is known that many individuals hold quite a few masternodes, but without explicit data, this can not be directly counted into the voting scheme. Unless the community opts to link masternode accounts, masternodes can only be assumed to be components of larger holdings, therefore we reduce their network effect vote by a predefined amount, and increase their intelligence vote by the same amount. 40% decrease/increase. For exponents of 0.6 and 1.66, this equates to the assumption that masternodes will typically be held by people who have 30k PIVX total.  This is an approximation, but without better information, we can not make the approximation more correct. 
-
+Masternodes currently present us with a conundrum, because they are pre-defined to be accounts of exactly 10k PIVX. Individuals won't be holding their own preferred coin numbers in those accounts. It is known that many individuals hold quite a few masternodes, but without explicit data, this can not be directly counted into the voting scheme. Unless the community opts to link masternode accounts, masternodes can only be assumed to be components of larger holdings, therefore we reduce their network effect vote by a predefined amount, and increase their intelligence vote by the same amount. 35% decrease/increase. For exponents of 0.6 and 1.66, this equates to the assumption that masternodes will typically be held by people who have 30k PIVX total.  This is an approximation, but without better information, we can not make the approximation more correct. 
 
 
 ## 2.7 Vote Nodes
@@ -148,6 +178,29 @@ Vote nodes should be allowed to implement delegated proof of stake (DPOS) or sta
 ## 2.8 General Users
 All users vote according to PIVX holdings in layers N^2 and I according to the powers (exponents) given to those layers. This includes all node holders. However, there will be a minimum holdings requirement which may change over time. Early suggestion for this number is 500 PIVs. If this number falls too low, it becomes too easy for large holders to steal N^2 vote as well as too easy for uninterested parties to influence decisions. If it rises too high, it becomes too difficult for small stake holders to acquire that voting power. 
 
+## 2.9 The No Dancing Filter
+A consensus model deriving its voting weights simply  by what each wallet is holding at voting time would  erroneously overrepresent traders who'd only recently bought their PIVX. Value comes from those who hold their PIVs, as should the votes. A good measure for this is the 'Exponential Moving Average'.
+The EMA has a few neat properties. If the holdings on a wallet were to suddenly jump from zero to H, the EMA would steadily respond as
+
+f(t)=H(1-e^{-ct})
+
+If the wallets value jumped back to zero, it's EMA would respond at the rate
+
+f(t)=He^{-ct}
+
+Where (H(t)) is the wallet at time t. To be implemented, the EMA can be calculated by tracking the time and values between transactions. For example, suppose the last transaction occured T in the past, then:
+
+f(H(t)) = (1-e^{-cT})H(t)+e^{-cT}f(H(t-T))
+
+
+If it happens these calculations are too cumbersome to perform on every transaction, an even further simplified model can be used, which simply approximates a wallets holdings by its contents iteratively say, every two weeks, so that if $e^{-cT}=C$ and the iteration is n, then
+
+f_n=(1-C)H(n)+(C)f_{n-1}
+
+The electronics engineers know this equation as an 'IIR' filter.
+Smaller C result in faster t decay.  If C is needed to provide a specific decay rate as fractional reduction per interval T, 0<\lambda<1, the inversion is quite simple.
+
+c=ln(lambda)
 
 ## 2.9 Thresholding
 
@@ -164,59 +217,72 @@ By creating a voting layer which substantially advantages an upper class, but th
 Unnoted by politicians and attorneys whith whom I have spoken, there is a second reason for a vote requirement substantially over 50%. If we go back to the intelligence equations in various AI models, we will discover that time, or number of iterations of the system, is a crucial element of intelligence algorithmic. We expect it to take more time to get a proposal substantially above 50% vote, and hence, we expect the quality of the resultant proposal to be higher. This conflicts in some cases with the need for an emergency decision, where time simply is not available.  So, what we are seeing here is that once the predator prey problem is pre-solved by layering, we can actually use the voting threshold for a different purpose. We can maximize system intelligence according to time requirement. We can impose a high vote requirement if there is plenty of time, and a lower vote requirement if there is an emergency.  Recalling that PIVX is using +/0/- voting so that >50% is net positive, I believe that reasonable sets of numbers for this are:
 
 * Net Positive, Net Positive, Net Positive (all 3 layers) in case of emergency (such as severe bandwidth problems)
-* Net Positive, Net Positive, Net Positive (all 3 layers) and 5% positive total with each layer representing 1/3 of total vote in non-emergency situations. 
+* Net Positive, Net Positive, Net Positive (all 3 layers) and requirement to beat the null option, which is given 5% up front advantage for the macro-vote in non-emergency situations.
 * It's probably reasonable to have a vote forcing option where every 5% extra total vote outweighs a 1% layer blocking such that for example 15% total net positive in a non-emergency situation overcomes one of the layers blocking at -2%.
+* If must-chose votes are required, the layer vote would  fall out of scope, the null option would be eliminated, and the macro-vote would simply choose the highest ranked option according to iterative ranked voting with null option. 
 
-Because of the intention to do away with single-option voting in order to accept a stronger information variety in to the voting option pool, this set of weights does not complete the system. Multiple voting options may pass according to those criteria. In that case, we simply choose the option that has the highest total positive percentage. 
 
 Furthermore, there is the possibility that a large percentage of the public does not deliver information. The earlier threshold of required vote power exercised for a vote to pass was 10%.  A suggestion of 5% has been made in the interim. I believe that starting with 5% is a correct model, to assure mobility, and allowing this value to be altered as history writes something to look at. It will be appropriate to include into voting code a separable matrix structure of tuning parameters which may be both retained and updated over time so as to validate old decisions as well as make new ones. 
-
-
-### For Meta-votes 
-Meta-votes are just votes with special thresholding for the meta-vote purpose.  These votes are allowed only to operate on the voting system or primary documents of the system its self such as the Manifesto. Any meta-vote operating on normal system decisions is invalid and not to be implemented.  Any normal vote operating on the voting system or primary system documents is similarly invalid and not to be implemented. 
-
-In the case of meta-votes, the structure of the decision making system is in question. It's probably appropriate to have two separate meta-layers for voting.  One for the general manifesto, and a second for any other fundamental document. 
-
-
-
 
 ## 2.10 Meta-Consensus
 It would be naive to assume the ability to anticipate all possible dynamics of a consensus system which involves complex feedback, stochastic inputs, and therefore chaotic movement. Therefore, it is prudent that there are built in procedures for adapting the consensus mechanism itself. However, since Meta-consensus is on a more abstract level, it's impact can be even more unpredictable and sensitive to change than the consensus mechanism itself. For this reason, it is necessary that controls for Meta-Consensus be even more restrictive, with high threshold (see 2.9) and limited manipulability.  
 
+### For Meta-votes 
+Meta-votes are just votes with special thresholding for the meta-vote purpose.  These votes are allowed only to operate on the voting system or primary documents of the system its self such as the Manifesto and consensus model. Any meta-vote operating on normal system decisions is invalid and not to be implemented.  Any normal vote operating on the voting system or primary system documents is similarly invalid and not to be implemented. 
 
+In the case of meta-votes, the structure of the decision making system is in question. It's probably appropriate to have two separate meta-layers for voting.  One for the general manifesto, and a second for any other fundamental document.  In both cases, the layer blocking option falls out, and macro-vote (combined vote) dominates entirely.  However, the null option receives 15% advantage for changes in the manifesto, and 10% advantage for changes in the core documents. 
 
-
+Because the consensus model is assumed to be in a tuning phase for the first 8 years however, the 10% advantage for the null option shall be reduced to 5% for those 8 years.  
 
 
 # 3. Implementation
 
-## 3.1 Information Timing (The No-dancing Filter)
-Without delaying the shift in voting power related to the movement of PIVs in the system, large players can simply move their pivs into a favorite position for each separate vote. Clearly this ruins the 3 layer model. Therefore, we enforce vote timing such that voting power takes roughly 1 year to fully transfer from one address to another. Therefore a voter must choose his favorite layer in general and not for specific votes.
-
-It was requested for vote data and computation to be minimal. If we examine the plethora of signal processing strategies for smoothing and delaying signals, the solution that requires the least computation and memory is the single pole IIR filter of following design. IIR stands for infinite impulse response, which is the converse of finite impulse response. FIR filters are basically just as good, possibly better under circumstances, but more expensive to implement. We will call it "the no dancing filter"
-
-W[N] = W[N-1]C + A * (1-c)
-
-This is an extremely simple IIR filter which produces a series of vote weights W[N] given a filter constant c between 0 and 1, and a time varying account value A. The filter constant c is tuned in terms of what we call "time constants" the word time constant derives out of math/physics and the number e, but in this case, that is merely tradition. What a time constant means is that after one time constant of time, the system has settled to 63% of its final settling position.  If we decide to have a time constant of four months, then it will take about eight months for most of an accounts voting power to accrue. 
-
-Now suppose we run the filter equation once every month. Each W[N] would then be valid for one month of time. Four months then requires 4 iterations of the equation. So to get the proper value of c for a time constant of 4 months, we set A to 1, therefore eliminating it. And tune the equation to get us a value of 0.63 after four iterations. 
-
-W[N] = W[N-1]c + (1-c)  <br />
-now set w[0] to 0 and W[6] to 0.63 <br />
-W[1] = 1-c  <br />
-W[2] = (1-c)*c + (1-c) = c-c^2 +1 -c = 1-c^2  <br />
-W[3] = (1-c^2) * c + 1-c = c-c^3 + 1 - c = 1-c^3  <br />
-W[4] = 1-c^4 = 0.63  <br />
-c^4 = 0.37   <br />
-c = 0.37^1/4 = 0.779920671 <br />
+## 3.1 Ballots and Counting
 
 
+The main issue is that voters should have no need for 'insincere voting'. Rather, they should be prompted to include enough information in their ballot that the voting algorithm can always signify their vote in the most preferable way. First 'pass to post', or basic voting, suffers because its minimal information only really supports a two party system. I expect the  many of you are already familiar with the problems of first pass to post, and may be familiar with the apparent alternatives of both 'iterative ranked' voting, and +,0,- voting, and so may wish to skip some of the following text.
+
+The idea behind iterative ranked is that each ballot consists of an ordered list of the voters preferences. After the first pass, ballots may be counted up, and for each voter whose top pick was for a losing option, his vote gets to be redistributed to his next favored option on a second iteration. 
+
+With +,0,- voting, each option on the ballot recieves a +, -, or nothing. There are two versions of this, since the + and - options may or may not be mutually ranked. The rest of this document will consider only mutually ranked +,0,-. Once the ballots are filled, the +,0,-1 counts are first added together, and as before, votes for the least desired option will be removed from the ballots before an iterated recount. If, at any point, each -1 option is removed from a voters ballot, it is reasonable that said voter gets an implicit -1 count on his least preferred of the +1 options, and similarly if all +1 options are eliminated. Implicit -1 to +1 and reverse should not, of course, be taken in comparison to the null vote
+	
+However, there is a subtle relation between the two systems.
+	PIVX doesn't intend to rely on elections or must-pass-something votes, if they  even choose to have them at all. The PIVX community will be voting on  proposals and ammendments directly, which is uniquely different from an election, in that the 'null' option, to change nothing, must be present.  To solve this, we simply need to include null within the ranks. To operate a must-choose vote, we need only to remove the null option. A ballot for three competing options may look something like this: 
+
+  
+  1.  <span>B</span>
+
+2.  <span>A</span>
+
+3.  <span>null</span>
+
+4.  <span>C</span>
+
+This voter would rather see nothing get passed than Option C, because it
+is ranked below null. Infact, the same voter could have identically
+represented his opinions on this +,0,- style ballot:
+
+1.  <span>B +1</span>
+
+2.  <span>A +1</span>
+
+3.  <span>C -1</span>
 
 
+  
+	Since C is -1 here, it is implicit that it is less preferred than null. There is little meaning as to which of these two is better because, infact, they contain identical information, and are 'Isomorphic'. Some of the pivmetheus groups preference is for, +,0,-1 ballots, but in the end, there isn't much difference. At the end remains the task of counting up the votes. In our example here if the C and NULL options are eliminated after the first iterated passes, the algorithm should automatically set preference for B, with +1, against A, with -1. A different voter ranking A above B would be counted as A with +1 and B with -1. 
+	
+	 Some PIVX members have cited the 'Condorcet Paradox' and its various derivatives as arguments against ranked (ordinal) systems. Ranked voting tends to promote insincere voting where an individual ranks an option higher because the individual believes higher ranking means stronger vote weight, and its chances to win are higher, and other rankings will have no impact.  Iterative ranked voting however denies actual ordinality in that a higher ranked vote is not weighed more strongly than a lower ranking vote. If a voter has a preference between the two top candidates, then the voters vote is counted + or - according to the preference. Otherwise, the voters vote never had a chance of influencing the election to begin with.  In this model, there is no advantage in showing a different order of preference than what is true. 
+	 
+	 In order to implement layered voting, the final vote will follow the above strategy after each layer is given the chance to reject choices out of and prior to the macro-vote by attributing to them an excess of negative (below null) votes (after calibration/tuning constants and weights are calculated in). 
+	 
+To eliminate losers one at a time, we will make use of the copeland score, modified by the vote weights ouput by the no dancing filter.  https://www.researchgate.net/publication/235766330_Restricted_Manipulation_in_Iterative_Voting_Convergence_and_CondorcetEfficiency Each time a loser is eliminated, the copeland score will be re-calculated while ignoring the existence of the losing option. 
 
-This would be a very inexpensive, fundamental means of dampening vote movement to foil vote hopping. It is of further interest to compare W[N] and A and choose the smaller of the two for vote weight.  This would instantly kill voting for emptied accounts which would be an important part of breaking destroy and cache-in market strategies. In other words, if you use your vote to destroy the currency, then you're still holding the currency and therefore are subject to the damage. The choose the smaller rule also foils some additional, more subtle attack vectors. 
+"Copeland: The score of candidate c is the number of pairwise comparisons she wins (i.e., contests
+between c and another candidate a such that there is a majority of voters preferring c to a) minus
+the number of pairwise comparisons she loses. The candidates with the highest score win."
 
-It should not be necessary to use this filter for the S layer, but rather only for the N^2 and I layers. 
+
 
 
 ## 3.2 Additional Means Of Protecting the N^2 Vote
@@ -225,22 +291,31 @@ The N^2 voting layer is the most important voting layer, as it clearly actually 
 1. Power voting as described above, and exponents of 0.6 and 1.66 for N^2 and I layers respectively. 
 2. Easy Voting systems that provide voters an assortment of resources to minimize the effort required to vote. 
 3. Slightly raising the exponent of the I layer to 1.72 or some such would additionaly curb predation by other layers without substantially damaging the system.
-4. One of the most potent options is to float (make alterable) the N^2 blocking threshold and feed-back tie it to least squares approximations of the exponential function and power law visible in a snapshot of the PIVX distribution.  Significant attempts to steal N^2 vote will be visible in those least squares approximations, and if the distribution starts getting fat at the bottom, we know people are cheating and we can raise the blocking threshold appropriately.  In order to get this right, we need a small research project into identifying the correct account value distributions. Use of this option should allow partial deactivation or down-tuning of the no-dancing filter. 
+4. One of the most potent options is to float (make alterable) the N^2 blocking threshold. We may then adjust it according to least squares approximations of the PIVX account distribution curve at the time of voting.  Significant attempts to steal N^2 vote will be visible in those least squares approximations, and if the distribution starts getting fat at the bottom, we know people are cheating and we can raise the blocking threshold appropriately.  In order to get this right, we need a small research project into identifying the correct account value distributions. Use of this option should allow partial deactivation or down-tuning of the no-dancing filter. 
 5. Slight reduction (3-10%) of staking rewards for small accounts should further deter vote stealing by large account holders.
 6. Use of delegates, DPOS and vote nodes to allow voters to be represented by those in the study, thereby reducing the effort required to vote.
 7. Allowing exchanges to vote explicitly and only in the N^2 layer would bolster the stability of the layer without breaking the N^2SI model. Many have objected to this idea. It's possible in attempt to appease such to reduce the vote weight of the exchanges. 
-8. Any other accounts or classes of accounts that can be positively identified as N^2 accounts could be factored into N^2 in order to bolster the meaning and stability of the layer.
+8. Any other accounts or classes of accounts that can be positively identified as N^2 accounts could be factored into N^2 in order to bolster the meaning and stability of the layer. An interesting option for implementing this would be to offer additional N^2 vote to public keys that show large amounts of trading.  Accomplishing this would require some careful management of network calculation math. An adequate mathematics solution could potentially raise the priority of this option. 
 9. Anonymous Identity Models (not under consideration at this time)
 
+## 3.4 S layer
 
-## 3.3 Data Retention
-Because of the need to minimize the size of the block chain, It will be an advantage store the vote data separately from the chain. The actual vote results are crucial information and need to be on the chain.  In order to verify the legitimacy of the vote data and the chain, a hash of the vote data blocks should be stored on chain, and something like 100 of the next block creations should sign off the hash of the vote data in digital signatures. Over half of such block creation signatures chain-verifies the vote, and less than that invalidates it. The Vote data shall be retained for roughly 1 year before being archived. Vote data older than one year no longer shall be subject to scrutiny, and shall only be available from any nodes who voluntarily wish to archive the data. 
+The S layer is unique amongst the layers because holding PIVX is not proof of network support function.  Proper proof of network support function can only be acquired by evidence of masternode or staking rewards. Therefore, rather than using current PIVX holdings, we propose counting the PIVX rewarded to an address within a period of time, probably 2 weeks. Then we run that number through the same no dancing filter, or exponential moving average as the other two layers to acquire vote weight so as to substantiate that an account is participating actively over a period of time. We then offer 50% of the vote power of the S layer to masternodes and 50% of it to staking nodes.  While some discussion of creating a concept of “tokens” for accounting vote weights for this layer, we see this as unnecessary at the time, but possibly valuable for future projects. 
 
-## 3.4 Examples
+If vote nodes become a necessity because of voter apathy, then the vote node holders would acquire 10% of the S layer such that the percentages become 45/45/10.  That 14% would not belong to accounts being represented by vote nodes, but rather to the vote node accounts themselves.  In this case, every vote node representing more than a threshold number of accounts (start with 20) and also  (start with) over 5000 PIVs would share equally with other qualifying  vote nodes the 14% of S layer vote.   
 
-## 3.5 Tokens
+## 3.5 I layer
+The I layer has the weakness of a relatively small sample size. To help alleviate this problem, we shall limit all accounts to not more than 4% total vote (tunable at after observation).  This also blocks some attack vectors, such as single, large I account vote blocking attack.  
 
-## 3.6 Onramp
+
+## 3.6 Data Retention
+Because of the need to minimize the size of the block chain, It will be an advantage store the vote data separately from the chain. The actual vote results are crucial information and need to be on the chain.  In order to verify the legitimacy of the vote data and the chain, a hash of the vote data blocks should be stored on chain, and something like 50 of the next block creations should sign off the hash of the vote data in digital signatures. Over half of such block creation signatures chain-verifies the vote, and less than that invalidates it. The Vote data shall be retained for roughly 1 year before being archived. Vote data older than one year no longer shall be subject to scrutiny, and shall only be available from any nodes who voluntarily wish to archive the data. 
+
+If the coders however prefer, it should be acceptable to create a second chain, which maintains the vote data separately from the transaction data. 
+
+
+
+## 3.7 Onramp
 Avoiding an identity model requires extra complexity in this system, which then imposes a step-wise implementation. A reasonable ordering of the steps for implementation is as follows. This schedule should be somewhat flexible, based on the needs of other projects and availability of coding talent. 
 
 1. Create an S layer by adding staking vote together to the currently used masternode vote.
@@ -251,10 +326,115 @@ Avoiding an identity model requires extra complexity in this system, which then 
 6. Add more options from 3.2 if necessary, and Re-tune parameters once again. 
 
 
-# 4 Discussion and Reference
+# 4 Examples
+
+## 4.1 Example Voting Math
+
+For vote options A,B,C,D, null and public keys labelled 1,2,3 ...  consider the following data matrix:
+
+| ID  | Status | PIVS | Filter |S%     | I vote | I%   | N^2  |N^2%  | Rank Vector|% total|
+|-----|--------|------|--------|-------|--------|------|------|------|------------|-------|
+|     |        |      | Output |       |/1000   |      | Vote |      | Top First  |       | 
+| 1   | none   | 550  | 500    | 0     | 30     | 2.14 | 42   | 3.5  | ABDNC      | 5.64  |
+| 2   | none   | 5000 | 4000   | 0     | 954    | 6.83 | 145  | 12.1 | ACBND      | 18.93 |
+| 3   | staker | 20k  | 14k    | 41.17 | 7631   | 54.61| 307  | 25.6 | BADNC      | 121.38|
+| 4   | none   | 3000 | 2000   | 0     | 302    | 2.16 | 96   | 8    | BCNDA      | 10.16 |
+| 5   | staker | 3000 | 3000   | 8.83  | 592    | 4.24 | 122  | 10.2 | ADBNC      | 23.27 |
+| 6   | none   | 2000 | 1000   | 0     | 95     | 0.68 | 63   | 5.3  | DNACB      | 5.98  |
+| 7   | m-node | 10k  | 8000   | 50    | 4069   | 29.32| 163  | 13.6 | ABDNC      | 92.92 |
+| 8   | none   | 1000 | 900    | 0     | 80     | 0.58 | 59   | 4.92 | BADCN      | 5.5   |
+| 9   | none   | 800  | 700    | 0     | 53     | 0.379| 51   | 4.25 | CABDN      | 4.629 |
+| 10  | none   | 600  | 500    | 0     | 30     | 0.215| 42   | 3.5  | ABCND      | 3.715 |
+| 11  | none   | 700  | 600    | 0     | 41     | 0.293| 46   | 3.83 | ACBDN      | 4.123 |
+| 12  | none   | 1200 | 1000   | 0     | 95     | 0.680| 63   | 5.3  | ABDNC      | 5.98  |
+|total|        |      | 36400  | 100   | 13972  | 100  | 1199 | 100  |            |       |
 
 
-## 4.1. Options for Optimization to be Discussed These Options Are Not Necessary, but May be Advantageous. 
+The intended effect of power voting is clearly functioning, as visible in the differing vote percentages between I and N^2.
+
+Notice that some of the system criteria don't make sense with this small of a sample size, so we will omit the 4% single account cap on the I layer. In a real vote, single account vote percentages would of course be much smaller. Also, recall that the m-node gets extra I vote and diminished N^2 vote while checking. The vote weights are calculated from the filter output. For the S layer, the vote weights are the filter output for stakers and masternodes. Note that the filter output can not be higher than the PIV holding. 
+
+Interpretation:
+Option C is eliminated by the S layer because it gets 50% negative (below N) from the only masternode and both stakers also placed it below N, therefore giving it another 50% negative for that layer. No other options are blocked, so the remaining options continue to the macro-vote. 
+
+Inspection reveals that N will be the obvious first loser. Therefore we can reduce our further considerations to the options A,B, and D. To simplify the calculation of the weighted copeland scores, we will combine percentages into a single percentage (% total) so that the equation looks like (W-L) * %total  where W is compare wins and L is compare losses.  
+
+The weighted copeland scores clearly reveal b as the next loser, leaving only A and B in the struggle for the second weighted copeland score. A eeks out as the winner with 28.147 positive. 
+
+|ID     | A (WCS)| B (WCS)| D (WCS)| A (WCS2) | B (WCS2) |      
+|---    |-----   |-----   |-----   |----------|----------|
+| 1     | 11.28  | 0      | -11.28 | 5.64     | -5.64    | 
+| 2     | 37.86  | 0      | -37.86 | 18.93    | -18.93   |
+| 3     | 0      | 242.76 | -242.76| -121.38  | 121.38   |
+| 4     | -20.32 | 20.32  | 0      | -10.16   | 10.16    |
+| 5     | 46.54  | -46.54 | 0      | 23.27    | -23.27   |
+| 6     | 0      | -11.96 | 11.96  | 5.98     | -5.98    |
+| 7     | 185.84 | 0      | -185.84| 92.92    | -92.92   |
+| 8     | 0      | 11     | -11    | -5.5     | 5.5      |
+| 9     | 9.258  | 0      | -9.258 | 4.629    | -4.629   |
+| 10    | 7.43   | 0      | -7.43  | 3.715    | -3.715   |
+| 11    | 8.246  | 0      | -8.246 | 4.123    | -4.123   |
+| 12    | 11.96  | 0      | -11.96 | 5.98     | -5.98    |
+| total | 298.094| 215.58 | -513.67| 28.147   | -28.147  |
+
+
+
+## 4.2 Scenario 1
+
+There are quite a few roles the people who involve themselves with PIVX
+may play. Whether it is one or many, these roles will determine their
+interests and how they’ll vote. A few of the important ones are listed
+below:
+
+**Whales** 
+
+	Fat cats who move large volume, sometimes making visible splashes in the markets. 
+	Some are just wealthy people, but 
+	others come from financial institutions who trade with other peoples money. 
+
+**Traders** 
+
+	From the exchanges, mostly. They like predictable volatility, often use
+	backtested tradebots, may be leveraging borrowed currency (margin), and
+	mercurially may be either bullish or bearish, depending on if they plan to 
+	buy or sell, respectively.
+
+**Investors**
+
+	Separate from the traders, because they buy and hold long term. Since they are 
+	healthy to the system, PIVX incentives 	
+	them with  staking and masternode rewards, which lands them in the S layer. 
+	
+**Developers**
+
+	The ones who design improvements. You, presumably, in the I layer.
+	
+**Suppliers/Customers**
+
+	Using cryptos to trade either goods or services,
+	these people will mostly need low transaction fees, stable currency 
+	values, and quality representation in the N^2 layer.
+
+
+	
+Whale traders often proactively push currency value towards the
+direction they think it’s already headed. If they are bulls, they may
+publically declare it diamonds, and will vote accordingly. If they are bearish, however, whale
+traders will be most likely trying to push the price down.
+
+Suppose some whales from JP Morgan and other financial institutions decide PIVX has potential, although it hasn't been doing all that well lately. First, they act as bears, spreading 'FUD' and doubt, possibly even borrowing PIVX on margin, and selling them. However, as the price dips a bit further, they then buy up a few million $ worth of undervalued PIVX. Some of the bots and traders, seeing how the market has suddenly picked up momentum, following common indicators and technical analysis, also buy in, which drives the price up further. 
+
+Now the price is up, but if the whales tried to sell right then, so would the other traders, and besides, they bought PIVX  because they thought it had potential. Even if they did sell soon, they still wouldn't get a vote because of the EMA. Now they wait, and play the role of investors, slowly buying more pivs, as if they were blowing on a feather, until they decide they would finally like to sell. If PIVX is really growing like investors thought, whales are likely to hold their assets long enough to build a vote on the EMA, a likely to st
+
+Suppose now, the devs from the I layer 
+
+[vote Scenereo to be finished by Trismegistus or later deleted]
+
+
+# 5 Discussion and Reference
+
+
+## 5.1. Options for Optimization to be Discussed These Options Are Not Necessary, but May be Advantageous. 
 They have the disadvantage of making it more difficult for people to understand the voting math. 
 
 * account snapshotting combined with exponential-curve and power law analysis and timing allows emphasizing accounts that are relatively certain to not be misrepresenting themselves
@@ -276,7 +456,7 @@ They have the disadvantage of making it more difficult for people to understand 
 * use of vote history to adjust vote weights
 
 
-## 4.2 Examples of History Measures for a Sytem Guidance Instrument Panel 
+## 5.2 Examples of History Measures for a Sytem Guidance Instrument Panel 
 Some of these measures have already been implemented. 
 See:  http://www.presstab.pw/phpexplorer/PIVX/index.php,  http://pivx.masternodes.pro/
 
@@ -300,7 +480,7 @@ See:  http://www.presstab.pw/phpexplorer/PIVX/index.php,  http://pivx.masternode
 * Estimated dump pool size
 
 
-## 4.3.  Math Reference (for mathematicians)
+## 5.3.  Math Reference (for mathematicians)
 
 The network calculation used to determine a decision based on the individuals votes will take the general form of a 4 layered feed-forward network with the first three layers being non-thresholding layers while the fourth implements a complex system of interrelated thresholds. These four network math layers are not to be confused with the lay-person voting layers. They are calculation machinery, and not human-subjective function description. The input data will take the form of vectors of ternary numbers (+/0/-). 
 
@@ -311,7 +491,7 @@ The third network layer will contain a list of the primary value dimensions (or 
 The fourth network layer sums data from the vectors of integers and scalars from the third layer into a mutually suppressive thresholding system. The vector data is split from vectors into scalars. Each node of the fourth layer represents one of the elements of the vectors.  Each node of the fourth layer fills a thresholding function and outputs a single boolean number, all, except for one of which being 0 (not chosen)  while one of which is 1 (chosen). 
 
 
-## 4.4 Other Reference:
+## 5.4 Other Reference:
 
 https://en.wikipedia.org/wiki/Electoral_system <br />
 https://en.wikipedia.org/wiki/Social_choice_theory  <br />
@@ -325,4 +505,4 @@ http://www.cds.caltech.edu/%7Emurray/books/AM05/pdf/am06-complete_16Sep06.pdf <b
 
 Contributors:
 The information and ideas required to build this document come from a large number of individuals. <br /> 
-Turtleflax, Veramis, Openbaringen, Nitya, Presstab, Alexanderluthor, cryptosi, Grant, derek_hansen, Trismegistus, mgshightech
+Turtleflax, Openbaringen, Nitya, Presstab, Alexanderluthor, cryptosi, Grant, derek_hansen, Trismegistus, mgshightech
