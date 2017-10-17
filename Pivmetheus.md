@@ -1,7 +1,7 @@
 ![](https://www.hicgrp.net/wp-content/uploads/2016/02/work-in-progress-500x261.jpg)
 # Disclaimers
 
-#### While this document often makes use of the traditional word "vote", it is important to understand that it only appears to be traditional voting from the users perspective. The internal maths will be in the form of weighted network feedback. This appears to be the only means of accomplishing all of the above named goals. Therefore, it is appropriate to replace the word "vote" with a phrase such as "inform" or "informing" or "information acquirement" or "decision making event". The use of the word "vote" is for mental convenience of the reader only, and the meaning of the word shall be switched to an altered state defined by this paragraph. 
+#### While this document often makes use of the traditional word "vote", it is important to understand that it only appears to be traditional voting from the users perspective. The internal maths will be in the form of weighted network feedback. This appears to be the only means of accomplishing all of the named goals in the document. Therefore, it is appropriate to replace the word "vote" with a phrase such as "inform" or "informing" or "information acquirement" or "decision making event". The use of the word "vote" is for mental convenience of the reader only, and the meaning of the word shall be switched to an altered state defined by this paragraph. 
 
   # Pivmetheus consensus-proposal 
   ### Because an advanced digital assett deserves an advanced consensus model!
