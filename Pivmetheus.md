@@ -160,7 +160,7 @@ Because staking is a network support function, staking node feedback will be cou
 
 ## 2.6 Masternodes
 
-Masternodes currently present us with a conundrum, because they are pre-defined to be accounts of exactly 10k PIVX. Individuals won't be holding their own preferred coin numbers in those accounts. It is known that many individuals hold quite a few masternodes, but without explicit data, this can not be directly counted into the voting scheme. Unless the community opts to link masternode accounts, masternodes can only be assumed to be components of larger holdings, therefore we reduce their network effect vote by a predefined amount, and increase their intelligence vote by the same amount. 40% decrease/increase. For exponents of 0.6 and 1.66, this equates to the assumption that masternodes will typically be held by people who have 30k PIVX total.  This is an approximation, but without better information, we can not make the approximation more correct. 
+Masternodes currently present us with a conundrum, because they are pre-defined to be accounts of exactly 10k PIVX. Individuals won't be holding their own preferred coin numbers in those accounts. It is known that many individuals hold quite a few masternodes, but without explicit data, this can not be directly counted into the voting scheme. Unless the community opts to link masternode accounts, masternodes can only be assumed to be components of larger holdings, therefore we reduce their network effect vote by a predefined amount, and increase their intelligence vote by the same amount. 35% decrease/increase. For exponents of 0.6 and 1.66, this equates to the assumption that masternodes will typically be held by people who have 30k PIVX total.  This is an approximation, but without better information, we can not make the approximation more correct. 
 
 
 ## 2.7 Vote Nodes
@@ -217,10 +217,10 @@ By creating a voting layer which substantially advantages an upper class, but th
 Unnoted by politicians and attorneys whith whom I have spoken, there is a second reason for a vote requirement substantially over 50%. If we go back to the intelligence equations in various AI models, we will discover that time, or number of iterations of the system, is a crucial element of intelligence algorithmic. We expect it to take more time to get a proposal substantially above 50% vote, and hence, we expect the quality of the resultant proposal to be higher. This conflicts in some cases with the need for an emergency decision, where time simply is not available.  So, what we are seeing here is that once the predator prey problem is pre-solved by layering, we can actually use the voting threshold for a different purpose. We can maximize system intelligence according to time requirement. We can impose a high vote requirement if there is plenty of time, and a lower vote requirement if there is an emergency.  Recalling that PIVX is using +/0/- voting so that >50% is net positive, I believe that reasonable sets of numbers for this are:
 
 * Net Positive, Net Positive, Net Positive (all 3 layers) in case of emergency (such as severe bandwidth problems)
-* Net Positive, Net Positive, Net Positive (all 3 layers) and 5% positive total with each layer representing 1/3 of total vote in non-emergency situations. 
+* Net Positive, Net Positive, Net Positive (all 3 layers) and requirement to beat the null option, which is given 5% up front advantage for the macro-vote in non-emergency situations.
 * It's probably reasonable to have a vote forcing option where every 5% extra total vote outweighs a 1% layer blocking such that for example 15% total net positive in a non-emergency situation overcomes one of the layers blocking at -2%.
+* If must-chose votes are required, the layer vote would  fall out of scope, the null option would be eliminated, and the macro-vote would simply choose the highest ranked option according to iterative ranked voting with null option. 
 
-Because of the intention to do away with single-option voting in order to accept a stronger information variety in to the voting option pool, this set of weights does not complete the system. Multiple voting options may pass according to those criteria. In that case, we simply choose the option that has the highest total positive percentage. 
 
 Furthermore, there is the possibility that a large percentage of the public does not deliver information. The earlier threshold of required vote power exercised for a vote to pass was 10%.  A suggestion of 5% has been made in the interim. I believe that starting with 5% is a correct model, to assure mobility, and allowing this value to be altered as history writes something to look at. It will be appropriate to include into voting code a separable matrix structure of tuning parameters which may be both retained and updated over time so as to validate old decisions as well as make new ones. 
 
@@ -228,9 +228,11 @@ Furthermore, there is the possibility that a large percentage of the public does
 It would be naive to assume the ability to anticipate all possible dynamics of a consensus system which involves complex feedback, stochastic inputs, and therefore chaotic movement. Therefore, it is prudent that there are built in procedures for adapting the consensus mechanism itself. However, since Meta-consensus is on a more abstract level, it's impact can be even more unpredictable and sensitive to change than the consensus mechanism itself. For this reason, it is necessary that controls for Meta-Consensus be even more restrictive, with high threshold (see 2.9) and limited manipulability.  
 
 ### For Meta-votes 
-Meta-votes are just votes with special thresholding for the meta-vote purpose.  These votes are allowed only to operate on the voting system or primary documents of the system its self such as the Manifesto. Any meta-vote operating on normal system decisions is invalid and not to be implemented.  Any normal vote operating on the voting system or primary system documents is similarly invalid and not to be implemented. 
+Meta-votes are just votes with special thresholding for the meta-vote purpose.  These votes are allowed only to operate on the voting system or primary documents of the system its self such as the Manifesto and consensus model. Any meta-vote operating on normal system decisions is invalid and not to be implemented.  Any normal vote operating on the voting system or primary system documents is similarly invalid and not to be implemented. 
 
-In the case of meta-votes, the structure of the decision making system is in question. It's probably appropriate to have two separate meta-layers for voting.  One for the general manifesto, and a second for any other fundamental document. 
+In the case of meta-votes, the structure of the decision making system is in question. It's probably appropriate to have two separate meta-layers for voting.  One for the general manifesto, and a second for any other fundamental document.  In both cases, the layer blocking option falls out, and macro-vote (combined vote) dominates entirely.  However, the null option receives 15% advantage for changes in the manifesto, and 10% advantage for changes in the core documents. 
+
+Because the consensus model is assumed to be in a tuning phase for the first 8 years however, the 10% advantage for the null option shall be reduced to 5% for those 8 years.  
 
 
 # 3. Implementation
@@ -273,6 +275,12 @@ represented his opinions on this +,0,- style ballot:
 	 Some PIVX members have cited the 'Condorcet Paradox' and its various derivatives as arguments against ranked (ordinal) systems. Ranked voting tends to promote insincere voting where an individual ranks an option higher because the individual believes higher ranking means stronger vote weight, and its chances to win are higher, and other rankings will have no impact.  Iterative ranked voting however denies actual ordinality in that a higher ranked vote is not weighed more strongly than a lower ranking vote. If a voter has a preference between the two top candidates, then the voters vote is counted + or - according to the preference. Otherwise, the voters vote never had a chance of influencing the election to begin with.  In this model, there is no advantage in showing a different order of preference than what is true. 
 	 
 	 In order to implement layered voting, the final vote will follow the above strategy after each layer is given the chance to reject choices out of and prior to the macro-vote by attributing to them an excess of negative (below null) votes (after calibration/tuning constants and weights are calculated in). 
+	 
+To eliminate losers one at a time, we will make use of the copeland score, modified by the vote weights ouput by the no dancing filter.  https://www.researchgate.net/publication/235766330_Restricted_Manipulation_in_Iterative_Voting_Convergence_and_CondorcetEfficiency Each time a loser is eliminated, the copeland score will be re-calculated while ignoring the existence of the losing option. 
+
+"Copeland: The score of candidate c is the number of pairwise comparisons she wins (i.e., contests
+between c and another candidate a such that there is a majority of voters preferring c to a) minus
+the number of pairwise comparisons she loses. The candidates with the highest score win."
 
 
 
@@ -296,14 +304,18 @@ The S layer is unique amongst the layers because holding PIVX is not proof of ne
 
 If vote nodes become a necessity because of voter apathy, then the vote node holders would acquire 10% of the S layer such that the percentages become 45/45/10.  That 14% would not belong to accounts being represented by vote nodes, but rather to the vote node accounts themselves.  In this case, every vote node representing more than a threshold number of accounts (start with 20) and also  (start with) over 5000 PIVs would share equally with other qualifying  vote nodes the 14% of S layer vote.   
 
-## 3.5 Data Retention
+## 3.5 I layer
+The I layer has the weakness of a relatively small sample size. To help alleviate this problem, we shall limit all accounts to not more than 4% total vote (tunable at after observation).  This also blocks some attack vectors, such as single, large I account vote blocking attack.  
+
+
+## 3.6 Data Retention
 Because of the need to minimize the size of the block chain, It will be an advantage store the vote data separately from the chain. The actual vote results are crucial information and need to be on the chain.  In order to verify the legitimacy of the vote data and the chain, a hash of the vote data blocks should be stored on chain, and something like 50 of the next block creations should sign off the hash of the vote data in digital signatures. Over half of such block creation signatures chain-verifies the vote, and less than that invalidates it. The Vote data shall be retained for roughly 1 year before being archived. Vote data older than one year no longer shall be subject to scrutiny, and shall only be available from any nodes who voluntarily wish to archive the data. 
 
 If the coders however prefer, it should be acceptable to create a second chain, which maintains the vote data separately from the transaction data. 
 
 
 
-## 3.6 Onramp
+## 3.7 Onramp
 Avoiding an identity model requires extra complexity in this system, which then imposes a step-wise implementation. A reasonable ordering of the steps for implementation is as follows. This schedule should be somewhat flexible, based on the needs of other projects and availability of coding talent. 
 
 1. Create an S layer by adding staking vote together to the currently used masternode vote.
@@ -314,7 +326,40 @@ Avoiding an identity model requires extra complexity in this system, which then 
 6. Add more options from 3.2 if necessary, and Re-tune parameters once again. 
 
 
-## 4 Examples
+# 4 Examples
+
+## 4.1 Example Voting Math
+
+For vote options A,B,C,D, null and public keys labelled 1,2,3 ...  consider the following data matrix:
+
+| ID  | Status | PIVS | Filter |S%     | I vote | I%  | N^2  |N^2% | Rank Vector|
+|     |        |      | Output |       |/1000   |     | Vote |     | Top First  |
+| 1   | none   | 550  | 500    | 0     | 30     |     | 42   |     | ABDNC      | 
+| 2   | none   | 5000 | 4000   | 0     | 954    |     | 145  |     | ACBND      | 
+| 3   | staker | 20k  | 14k    | 41.17 | 7631   |     | 307  |     | BADNC      |
+| 4   | none   | 3000 | 2000   | 0     | 302    |     | 96   |     | BCNDA      |
+| 5   | staker | 3000 | 3000   | 8.83  | 592    |     | 122  |     | ADBNC      |
+| 6   | none   | 2000 | 1000   | 0     | 95     |     | 63   |     | DNACB      |
+| 7   | m-node | 10k  | 8000   | 50    | 4069   |     | 163  |     | ABDNC      |
+| 8   | none   | 1000 | 900    | 0     | 80     |     | 59   |     | BADCN      |
+| 9   | none   | 800  | 700    | 0     | 53     |     | 51   |     | CABDN      |
+| 10  | none   | 600  | 500    | 0     | 30     |     | 42   |     | ABCND      |
+| 11  | none   | 700  | 600    | 0     | 41     |     | 46   |     | ACBDN      |
+| 12  | none   | 1200 | 1000   | 0     | 95     |     | 63   |     | ABDNC      |
+|total|        |      | 36400  | 100   | 13972  | 100 | 1199 | 100 |            |      
+
+
+Notice that some of the system criteria don't make sense with this small of a sample size, so we will omit the 4% single account cap on the I layer. In a real vote, single account vote percentages would of course be much smaller. Also, recall that the m-node gets extra I vote and diminished N^2 vote while checking. The vote weights are calculated from the filter output. For the S layer, the vote weights are the filter output for stakers and masternodes. Note that the filter output can not be higher than the PIV holding. 
+
+Interpretation:
+Option C is eliminated by the S layer because it gets 50% negative (below N) from the only masternode and both stakers also placed it below N, therefore giving it another 50% negative. 
+
+
+
+
+
+## 4.2 Scenario 1
+
 There are quite a few roles the people who involve themselves with PIVX
 may play. Whether it is one or many, these roles will determine their
 interests and how they’ll vote. A few of the important ones are listed
@@ -355,12 +400,14 @@ Whale traders often proactively push currency value towards the
 direction they think it’s already headed. If they are bulls, they may
 publically declare it diamonds, and will vote accordingly. If they are bearish, however, whale
 traders will be most likely trying to push the price down.
-## 4.1 Scenario 1
+
 Suppose some whales from JP Morgan and other financial institutions decide PIVX has potential, although it hasn't been doing all that well lately. First, they act as bears, spreading 'FUD' and doubt, possibly even borrowing PIVX on margin, and selling them. However, as the price dips a bit further, they then buy up a few million $ worth of undervalued PIVX. Some of the bots and traders, seeing how the market has suddenly picked up momentum, following common indicators and technical analysis, also buy in, which drives the price up further. 
 
 Now the price is up, but if the whales tried to sell right then, so would the other traders, and besides, they bought PIVX  because they thought it had potential. Even if they did sell soon, they still wouldn't get a vote because of the EMA. Now they wait, and play the role of investors, slowly buying more pivs, as if they were blowing on a feather, until they decide they would finally like to sell. If PIVX is really growing like investors thought, whales are likely to hold their assets long enough to build a vote on the EMA, a likely to st
 
 Suppose now, the devs from the I layer 
+
+[vote Scenereo to be finished by Trismegistus or later deleted]
 
 
 # 5 Discussion and Reference
