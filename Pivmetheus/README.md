@@ -43,3 +43,13 @@
     5.1. [Example Voting Math](./examples.md#51-example-voting-math)
 
     5.2. [Scenario 1](./examples.md#52-scenario-1)
+
+6. [Discussion and Reference](./Discussion%20and%20Reference.md)
+
+    6.1. [Options for Optimization](./Discussion%20and%20Reference.md#61-options-for-optimization)
+
+    6.2. [Example Instruments for System Guidance Panel](./Discussion%20and%20Reference.md#62-example-instruments-for-system-guidance-panel)
+
+    6.3. [Math Reference](./Discussion%20and%20Reference.md#63-math-reference)
+
+    6.4. [Other References](./Discussion%20and%20Reference.md#64-other-references)
