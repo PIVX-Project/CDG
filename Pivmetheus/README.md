@@ -23,3 +23,17 @@
     3.10. [Thresholding](./Strategic%20Weight%20Analysis.md#310-thresholding)
 
     3.11. [Meta-Consensus](./Strategic%20Weight%20Analysis.md#311-meta-consensus)
+
+4. [Implementation](./Implementation)
+
+    4.1. [Ballots and Counting](./Implementation#41-ballots-and-counting)
+
+    4.2. [Additional Means Of Protecting the N<sup>2</sup> Vote](./Implementation#42-additional-means-of-protecting-the-n2-vote)
+
+    4.3. [S layer](./Implementation#43-s-layer)
+
+    4.4. [I layer](./Implementation#44-i-layer)
+
+    4.5. [Data Retention](./Implementation#45-data-retention)
+
+    4.6. [Onramp](./Implementation#46-onramp)
