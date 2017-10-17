@@ -1,6 +1,6 @@
 # Pivmetheus consensus-proposal
 
-Because an advanced digital assett deserves an advanced consensus model!
+Because an advanced digital asset deserves an advanced consensus model!
 
 ## Disclaimers
 
