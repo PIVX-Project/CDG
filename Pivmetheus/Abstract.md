@@ -9,7 +9,7 @@ The following issues to be balanced into this model have been chosen:
 3.  <span>Balance, protection, and respect for all groups of the
     community</span>
 
-4.  <span>Maximation of network value. It is understood that network
+4.  <span>Maximization of network value. It is understood that network
     value may have modelled by $V=N<sup>2</sup>SI$(described in
     detail below)</span>
 
