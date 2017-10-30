@@ -96,8 +96,8 @@ If the coders however prefer, it should be acceptable to create a second chain, 
 Avoiding an identity model requires extra complexity in this system, which then imposes a step-wise implementation. A reasonable ordering of the steps for implementation is as follows. This schedule should be somewhat flexible, based on the needs of other projects and availability of coding talent.
 
 1. Create an S layer by adding staking vote together to the currently used masternode vote. Also, at this point, an easy voter utility is to be created. 
-2. Create the N<sup>2</sup> and I layers and options 1 and 2 from section 3.2 as well as a minimal set of measurement instruments for observing the system. Most especially, least squared exponential and power law approximations as well as vote statistics.
+2. Create the N<sup>2</sup> and I layers and options 1 and 2 from "additional means of protecting the N^2 vote" as well as a minimal set of measurement instruments for observing the system. Most especially, least squared exponential and power law approximations as well as vote statistics.
 3. Observe the system behavior for roughly 1 year.
-4. Re-tune parameters and add additional elements from section 3.2 as appears to be appropriate. Adjust system design if necessary.
+4. Re-tune parameters and add additional elements from "additional means of protecting the N^2 vote" as appears to be appropriate. Adjust system design if necessary.
 5. Build more instruments for system observation and observe for another year.
 6. Add more options from 3.2 if necessary, and Re-tune parameters once again.
