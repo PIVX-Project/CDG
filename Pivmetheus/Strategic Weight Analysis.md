@@ -119,25 +119,38 @@ All users vote according to PIVX holdings in layers N<sup>2</sup> and I accordin
 A consensus model deriving its voting weights simply  by what each wallet is holding at voting time would  erroneously overrepresent traders who'd only recently bought their PIVX. Value comes from those who hold their PIVs, as should the votes. A good measure for this is the 'Exponential Moving Average'.
 The EMA has a few neat properties. If the holdings on a wallet were to suddenly jump from zero to H, the EMA would steadily respond as
 
-f(t)=H(1-e^<sup>-ct</sup>})
+f(t)=H(1-e<sup>-ct</sup>})
 
 If the wallets value jumped back to zero, it's EMA would respond at the rate
 
-f(t)=He^<sup>-ct</sup>}
+f(t)=He<sup>-ct</sup>}
 
-Where (H(t)) is the wallet at time t. To be implemented, the EMA can be calculated by tracking the time and values between transactions. For example, suppose the last transaction occured T in the past, then:
+Where (H(t)) is the holdings of a public key at time t. To be implemented, the EMA can be calculated by tracking the time and values between transactions. For example, suppose the last transaction occured T in the past, then:
 
-f(H(t)) = (1-e^<sup>-cT</sup>)H(t)+e^<sup>-cT</sup>f(H(t-T))
+f(H(t)) = (1-e<sup>-cT</sup>)H(t)+e<sup>-cT</sup>f(H(t-T))
 
 
-If it happens these calculations are too cumbersome to perform on every transaction, an even further simplified model can be used, which simply approximates a wallets holdings by its contents iteratively say, every two weeks, so that if $e^<sup>-cT</sup>=C$ and the iteration is n, then
+If it happens these calculations are too cumbersome to perform on every transaction, an even further simplified model can be used, which simply approximates a wallets holdings by its contents iteratively say, every two weeks, so that if $e<sup>-cT</sup>=C$ and the iteration is n, then
 
-f_n=(1-C)H(n)+(C)f_{n-1}
+W[N]=(C)W[N-1] + (1-C)H[N]
+
+where W and H are 2 series denoted with array indices. W the filter output weights and H the holdings of a PIVX public key at snapshot intervals.  C is a filter constant between 0 and 1. PIVX will use 2 week intervals if coders choose the interval option in order to avoid colliding with the common monthly financial rhythm. It will also use a "time constant" of 4 months, meaning that 63% of a holders voting power will accrue in 4 months regardless of whether the coders choose to calculate at every transaction or at intervals.   
 
 The electronics engineers know this equation as an 'IIR' filter.
-Smaller C result in faster t decay.  If C is needed to provide a specific decay rate as fractional reduction per interval T, 0<\lambda<1, the inversion is quite simple.
+For 2 week intervals, Four months then requires 8 iterations of the equation. So to get the proper value of c for a time constant of 4 months, we set H to 1, therefore eliminating it. And tune the equation to get us a value of 0.63 after eight iterations.
 
-c=ln(lambda)
+W[N] = W[N-1]C + (1-C)   <br />
+now set w[0] to 0 and W[6] to 0.63 <br />
+W[1] = 1-C <br />
+W[2] = (1-C)*c + (1-C) = C-C<sup>2</sup> +1 -c = 1-c<sup>2</sup> <br />
+W[3] = (1-c<sup>2</sup>) * C + 1-C = C-C<sup>3<sup> + 1 - C = 1-C<sup>3</sup>  <br />
+. <br />
+. <br />
+. <br />
+ W[8] = 1-C<sup>8</sup> = 0.63 <br />
+C^8 = 0.37 <br />
+ C = 0.37<sup>1/8</sup> = 0.883131174 <br />
+
 
 ## 3.10 Thresholding
 
