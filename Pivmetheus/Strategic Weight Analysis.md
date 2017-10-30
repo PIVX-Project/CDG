@@ -148,7 +148,7 @@ W[3] = (1-c<sup>2</sup>) * C + 1-C = C-C<sup>3</sup> + 1 - C = 1-C<sup>3</sup>  
 . <br />
 . <br />
  W[8] = 1-C<sup>8</sup> = 0.63 <br />
-C^8 = 0.37 <br />
+C<sup>8</sup> = 0.37 <br />
  C = 0.37<sup>1/8</sup> = 0.883131174 <br />
 
 
