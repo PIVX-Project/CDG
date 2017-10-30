@@ -113,7 +113,7 @@ Vote nodes should be allowed to implement delegated proof of stake (DPOS) or sta
 
 
 ## 3.8 General Users
-All users vote according to PIVX holdings in layers N<sup>2</sup> and I according to the powers (exponents) given to those layers. This includes all node holders. However, there will be a minimum holdings requirement which may change over time. Early suggestion for this number is 500 PIVs. If this number falls too low, it becomes too easy for large holders to steal N<sup>2</sup> vote as well as too easy for uninterested parties to influence decisions. If it rises too high, it becomes too difficult for small stake holders to acquire that voting power.
+All users vote according to PIVX holdings in layers N<sup>2</sup> and I according to the powers (exponents) given to those layers. This includes all node holders. However, there will be a minimum holdings requirement which may change over time. Early suggestion for this number is 400 PIVs as described in "derivation of approach". If this number falls too low, it becomes too easy for large holders to steal N<sup>2</sup> vote as well as too easy for uninterested parties to influence decisions. If it rises too high, it becomes too difficult for small stake holders to acquire that voting power.  Altering this number requires re-considering also the 5% dust vote for the N^2 layer as described in "derivation of approach".  
 
 ## 3.9 The No Dancing Filter
 A consensus model deriving its voting weights simply  by what each wallet is holding at voting time would  erroneously overrepresent traders who'd only recently bought their PIVX. Value comes from those who hold their PIVs, as should the votes. A good measure for this is the 'Exponential Moving Average'.
