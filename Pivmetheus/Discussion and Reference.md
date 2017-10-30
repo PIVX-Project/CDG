@@ -84,4 +84,4 @@ http://www.cds.caltech.edu/%7Emurray/books/AM05/pdf/am06-complete_16Sep06.pdf <b
 
 Contributors:
 The information and ideas required to build this document come from a large number of individuals. <br />
-Turtleflax, Openbaringen, Nitya, Presstab, Alexanderluthor, cryptosi, Grant, derek_hansen, Trismegistus, mgshightech
+Turtleflax, Openbaringen, Nitya, Presstab, Alexanderluthor, cryptosi, Grant, derek_hansen, Trismegistus, mgshightech, fused_helios, eric_stanek, Dino85fr
