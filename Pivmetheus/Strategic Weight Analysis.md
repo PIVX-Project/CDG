@@ -140,7 +140,7 @@ The electronics engineers know this equation as an 'IIR' filter.
 For 2 week intervals, Four months then requires 8 iterations of the equation. So to get the proper value of c for a time constant of 4 months, we set H to 1, therefore eliminating it. And tune the equation to get us a value of 0.63 after eight iterations.
 
 W[N] = W[N-1]C + (1-C)   <br />
-now set w[0] to 0 and W[6] to 0.63 <br />
+now set w[0] to 0 and W[8] to 0.63 <br />
 W[1] = 1-C <br />
 W[2] = (1-C)*c + (1-C) = C-C<sup>2</sup> +1 -c = 1-c<sup>2</sup> <br />
 W[3] = (1-c<sup>2</sup>) * C + 1-C = C-C<sup>3</sup> + 1 - C = 1-C<sup>3</sup>  <br />
