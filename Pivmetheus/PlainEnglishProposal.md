@@ -76,7 +76,7 @@ If we count votes ranked below “do nothing” as negative and those ranked abo
 
 There is in the beginning no need to adjust the vote balance between masternodes and stakers as this is pre-balanced by the see-saw mechanism.  If it becomes necessary to build vote nodes for delegation, they would naturally also be counted into network support and acquire 5% of the S layer vote from both Masternodes and Stakers, totalling 10% of the S layer vote. 
 
-Note that limiting vote nodes to a maximum representation of 30,000 public keys protects the system against long term feedback parasitics and anomolies. Allowing representees to switch vote nodes at any time and also to see vote nodes voting behavior further reduces feedback anomolies and misrepresentation. 
+Note that limiting vote nodes to a maximum representation of 30,000 public keys protects the system against long term feedback parasitics and anomolies. Allowing representees to switch vote nodes at any time and also to see vote nodes voting behavior further reduces feedback anomolies and misrepresentation. There will also be no set number of delegates other than that which is required by the max. representation limit. 
 
 Vote options which are not blocked by layers pass to the system wide iterative ranked vote where each layer (N^2,S,I)  receives 1/3 of the vote weight.  The winning option of that vote passes and is accepted by the PIVX community. 
 
