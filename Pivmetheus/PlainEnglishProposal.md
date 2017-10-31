@@ -37,7 +37,7 @@ Power voting can substantially seperate large from small investors by offering v
 
 ![image blocked](./images/N2votesperpiv.png "N^2 layer votes per piv account size profile")
 
-The voting layer which favors large investors uses a votes/piv profile that looks like the following image. 
+The voting layer which favors large investors uses a votes/piv profile that looks like the following image. Once again, votes per piv on the vertical axis and pivs on the horizontal axis. 
 
 ![image blocked](./images/Ivotesperpiv.png "I layer votes per piv account size profile")
 
