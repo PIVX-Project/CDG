@@ -35,17 +35,12 @@ Having multiple separate voting layers that differ from one another in character
 
 Power voting can substantially seperate large from small investors by offering vote power that changes with account (public key holding) size.  We will use two separate profiles.  One profile which favors small investors in voting power looks like the following image with votes per piv on the vertical axis and pivs on the horizontal axis.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-![alt text](./images/N2votesperpiv.png "")
-![alt text](../../../raw/master/Pivmetheus/images/N2votesperpiv.png "")
-![alt text](https://github.com/mgshightech/CDG/blob/master/Pivmetheus/images/N2votesperpiv.png "")
+![image blocked](./images/N2votesperpiv.png "N^2 layer votes per piv account size profile")
 
+The voting layer which favors large investors uses a votes/piv profile that looks like the following image. 
 
+![image blocked](./images/Ivotesperpiv.png "I layer votes per piv account size profile")
 
-
-![alt text][N2vpp]
-
-[N2vpp]: ./images/N2votesperpiv.png "N^2 layer votes per piv profile"
 
 Playing favorites for small investors however, doesn’t work in anonymous systems, because large investors can simply pretend to be small investors in order to obtain the favor.  We can not eliminate the ability of large investors to do this. We can however eliminate the incentive by providing the same protection to large investors as is given to small investors.  A large investor who pretends to be a small investor will according to the scheme, lose large investor vote.  This means that pretending to be a small investor does not increase their leverage.  This eliminates most of the incentive for large investors to steal small investor vote.  The PIVmetheus white paper also describes a collection of additional means of subtly adjusting the system in order to powerfully discourage large investors from pretending to be small investors.  The most significant of which is using a slow accrual of voting power in order to discourage/prevent voting attacks and strategic vote re-positioning. 
 
