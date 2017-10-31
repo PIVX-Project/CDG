@@ -70,13 +70,11 @@ This configuration ranks B at the top. For layer blocking purposes, it counts B 
 
 "Copeland: The score of candidate c is the number of pairwise comparisons she wins (i.e., contests between c and another candidate a such that there is a majority of voters preferring c to a) minus the number of pairwise comparisons she loses. The candidates with the highest score win." 
 
-Delegate vote purchasing (bribes) can be stifled by limiting delegates (if instantiated) from representing more than 30,000 public keys. Furthermore, allowing voters to re-chose their own favorite delegate at any time will help to impose genuine representation onto the delegates. 
+Delegates were questionably popular during discussions, and are only a requirement of the system if voter turn out shows its self to be too weak. Delegate vote purchasing (bribes) can be stifled by limiting delegates (if instantiated) from representing more than 30,000 public keys. Furthermore, allowing voters to re-chose their own favorite delegate at any time will help to impose genuine representation onto the delegates. There will also be no set number of delegates other than that which is required by the max. representation limit. 
 
 If we count votes ranked below “do nothing” as negative and those ranked above “do nothing” as positive, we can create an excellent means for each of the three layers to protect themselves by rejecting vote options with net negative vote count for that layer.  Such vote options would then not be allowed to proceed to the combined multi-layer vote where each layer of the system would receive equal weight (1/3) in the decision making process. 
 
 There is in the beginning no need to adjust the vote balance between masternodes and stakers as this is pre-balanced by the see-saw mechanism.  If it becomes necessary to build vote nodes for delegation, they would naturally also be counted into network support and acquire 5% of the S layer vote from both Masternodes and Stakers, totalling 10% of the S layer vote. 
-
-Note that limiting vote nodes to a maximum representation of 30,000 public keys protects the system against long term feedback parasitics and anomolies. Allowing representees to switch vote nodes at any time and also to see vote nodes voting behavior further reduces feedback anomolies and misrepresentation. There will also be no set number of delegates other than that which is required by the max. representation limit. 
 
 Vote options which are not blocked by layers pass to the system wide iterative ranked vote where each layer (N^2,S,I)  receives 1/3 of the vote weight.  The winning option of that vote passes and is accepted by the PIVX community. 
 
