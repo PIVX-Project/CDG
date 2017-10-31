@@ -100,13 +100,13 @@ Avoiding an identity model requires extra complexity in this system, which then 
 This document describes the primary issues and function of the PIVmetheus voting system. For more complete and technical details regarding the voting system of this proposal, see the PIVmetheus white paper. 
 
 ## More References
-https://en.wikipedia.org/wiki/Electoral_system
-https://en.wikipedia.org/wiki/Social_choice_theory
-https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem
-https://en.wikipedia.org/wiki/Gibbard%E2%80%93Satterthwaite_theorem
-https://en.wikipedia.org/wiki/Cardinal_voting
-https://en.wikipedia.org/wiki/Condorcet_paradox
-http://www.cds.caltech.edu/%7Emurray/books/AM05/pdf/am06-complete_16Sep06.pdf
+https://en.wikipedia.org/wiki/Electoral_system <br />
+https://en.wikipedia.org/wiki/Social_choice_theory <br />
+https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem <br />
+https://en.wikipedia.org/wiki/Gibbard%E2%80%93Satterthwaite_theorem <br />
+https://en.wikipedia.org/wiki/Cardinal_voting <br />
+https://en.wikipedia.org/wiki/Condorcet_paradox <br />
+http://www.cds.caltech.edu/%7Emurray/books/AM05/pdf/am06-complete_16Sep06.pdf <br />
 
 ## Disclaimers
 
