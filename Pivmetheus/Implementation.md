@@ -77,9 +77,9 @@ The N<sup>2</sup> voting layer is the most important voting layer, as it clearly
 
 ## 4.3 S layer
 
-The S layer is unique amongst the layers because holding PIVX is not proof of network support function.  Proper proof of network support function can only be acquired by evidence of masternode or staking rewards. Therefore, rather than using current PIVX holdings, we propose counting the PIVX rewarded to an address within a period of time, probably 2 weeks. Then we run that number through the same no dancing filter, or exponential moving average as the other two layers to acquire vote weight so as to substantiate that an account is participating actively over a period of time. We then offer 50% of the vote power of the S layer to masternodes and 50% of it to staking nodes.  While some discussion of creating a concept of “tokens” for accounting vote weights for this layer, we see this as unnecessary at the time, but possibly valuable for future projects.
+The S layer is unique amongst the layers because holding PIVX is not proof of network support function.  Proper proof of network support function can only be acquired by evidence of masternode or staking rewards. Therefore, rather than using current PIVX holdings, we propose counting the PIVX rewarded to an address within a period of time, probably 2 weeks. Then we run that number through the same no dancing filter, or exponential moving average as the other two layers to acquire vote weight so as to substantiate that an account is participating actively over a period of time. The see-saw mechanism pre-balances the masternodes and the stakers, such that no additional algorithms are required to adjust that balance.   While some discussion of creating a concept of “tokens” for accounting vote weights for this layer, we see this as unnecessary at the time, but possibly valuable for future projects.
 
-If vote nodes become a necessity because of voter apathy, then the vote node holders would acquire 10% of the S layer such that the percentages become 45/45/10.  That 14% would not belong to accounts being represented by vote nodes, but rather to the vote node accounts themselves.  In this case, every vote node representing more than a threshold number of accounts (start with 20) and also  (start with) over 5000 PIVs would share equally with other qualifying  vote nodes the 14% of S layer vote.
+If vote nodes become a necessity because of voter apathy, then the vote node holders would acquire 10% of the S layer such that the percentages become (approximately .. as varied by the see-saw mechanism) 45/45/10.  That 10% would not belong to accounts being represented by vote nodes, but rather to the vote node accounts themselves.  In this case, every vote node representing more than a threshold number of accounts (start with 20) and also  (start with) over 5000 PIVs would share equally with other qualifying  vote nodes the 10% of S layer vote.
 
 ## 4.4 I layer
 The I layer has the weakness of a relatively small sample size. To help alleviate this problem, we shall limit all accounts to not more than 4% total vote (tunable at after observation).  This also blocks some attack vectors, such as single, large I account vote blocking attack.
@@ -95,9 +95,9 @@ If the coders however prefer, it should be acceptable to create a second chain, 
 ## 4.6 Onramp
 Avoiding an identity model requires extra complexity in this system, which then imposes a step-wise implementation. A reasonable ordering of the steps for implementation is as follows. This schedule should be somewhat flexible, based on the needs of other projects and availability of coding talent.
 
-1. Create an S layer by adding staking vote together to the currently used masternode vote.
-2. Create the N<sup>2</sup> and I layers and options 1 and 2 from section 3.2 as well as a minimal set of measurement instruments for observing the system. Most especially, least squared exponential and power law approximations as well as vote statistics.
+1. Create an S layer by adding staking vote together to the currently used masternode vote. Also, at this point, an easy voter utility is to be created. 
+2. Create the N<sup>2</sup> and I layers and options 1 and 2 from "additional means of protecting the N^2 vote" as well as a minimal set of measurement instruments for observing the system. Most especially, least squared exponential and power law approximations as well as vote statistics.
 3. Observe the system behavior for roughly 1 year.
-4. Re-tune parameters and add additional elements from section 3.2 as appears to be appropriate. Adjust system design if necessary.
+4. Re-tune parameters and add additional elements from "additional means of protecting the N^2 vote" as appears to be appropriate. Adjust system design if necessary.
 5. Build more instruments for system observation and observe for another year.
 6. Add more options from 3.2 if necessary, and Re-tune parameters once again.
