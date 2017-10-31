@@ -31,7 +31,13 @@ Corporations originally did not see through the illusion of investment numerics.
 
 While there is hope of using complex anonymous identity systems in the future for the protection of individuals, without explicit identity information, we can still use a strategy very similar to quadratic voting, which we will call “power voting”.  
 
-Having multiple separate voting layers that differ from one another in character allows the voting process to effectively consider issues from multiple view angles in order to process them more completely. Power voting can create two distinct voting layers that favor small investors and large investors separately.  Unsavory features of “quadratic voting” were removed, and the details are discussed in the PIVmetheus white paper.  
+Having multiple separate voting layers that differ from one another in character allows the voting process to effectively consider issues from multiple view angles in order to process them more completely. Power voting can create two distinct voting layers that favor small investors and large investors separately.  Unsavory features of “quadratic voting” were removed, and the details are discussed in the PIVmetheus white paper.  Here we will summarize by showing images.  
+
+Power voting can substantially seperate large from small investors by offering vote power that changes with account (public key holding) size.  We will use two separate profiles.  One profile which favors small investors in voting power looks like the following image with votes per piv on the vertical axis and pivs on the horizontal axis.
+
+![alt text][N2vpp]
+
+[N2vpp]: ./images/N2votesperpiv.png "N^2 layer votes per piv profile"
 
 Playing favorites for small investors however, doesn’t work in anonymous systems, because large investors can simply pretend to be small investors in order to obtain the favor.  We can not eliminate the ability of large investors to do this. We can however eliminate the incentive by providing the same protection to large investors as is given to small investors.  A large investor who pretends to be a small investor will according to the scheme, lose large investor vote.  This means that pretending to be a small investor does not increase their leverage.  This eliminates most of the incentive for large investors to steal small investor vote.  The PIVmetheus white paper also describes a collection of additional means of subtly adjusting the system in order to powerfully discourage large investors from pretending to be small investors.  The most significant of which is using a slow accrual of voting power in order to discourage/prevent voting attacks and strategic vote re-positioning. 
 
