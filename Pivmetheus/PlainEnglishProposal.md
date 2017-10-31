@@ -74,7 +74,7 @@ Delegate vote purchasing (bribes) can be stifled by limiting delegates (if insta
 
 If we count votes ranked below “do nothing” as negative and those ranked above “do nothing” as positive, we can create an excellent means for each of the three layers to protect themselves by rejecting vote options with net negative vote count for that layer.  Such vote options would then not be allowed to proceed to the combined multi-layer vote where each layer of the system would receive equal weight (1/3) in the decision making process. 
 
-For beginners, we can give Masternodes 50% of the S (network support) layer and stakers also 50%.  If it becomes necessary to build vote nodes for delegation, they would naturally also be counted into network support and acquire 5% of the S layer vote from both Masternodes and Stakers, totalling 10% of the S layer vote. 
+There is in the beginning no need to adjust the vote balance between masternodes and stakers as this is pre-balanced by the see-saw mechanism.  If it becomes necessary to build vote nodes for delegation, they would naturally also be counted into network support and acquire 5% of the S layer vote from both Masternodes and Stakers, totalling 10% of the S layer vote. 
 Vote options which are not blocked by layers pass to the system wide iterative ranked vote where each layer (N^2,S,I)  receives 1/3 of the vote weight.  The winning option of that vote passes and is accepted by the PIVX community. 
 
 ## Calibration
