@@ -62,13 +62,7 @@ See:  http://www.presstab.pw/phpexplorer/PIVX/index.php,  http://pivx.masternode
 
 ## 6.3. Math Reference
 
-The network calculation used to determine a decision based on the individuals votes will take the general form of a 4 layered feed-forward network with the first three layers being non-thresholding layers while the fourth implements a complex system of interrelated thresholds. These four network math layers are not to be confused with the lay-person voting layers. They are calculation machinery, and not human-subjective function description. The input data will take the form of vectors of ternary numbers (+/0/-).
-
-The first network layer will be the input data.  The first set of weights is derived from chain data, and will weigh the input data into nodes of the second network layer which represents a detailed list of currency related functionalities. The form of the data at this point will be vectors of integers. They will be accompanied by additional scalars, which retain the number of original non-zero votes for each function. The scalars may be used to determine vote percentages. Those functionalities, once summed, will be weighed into the third network layer.
-
-The third network layer will contain a list of the primary value dimensions (or lay-person voting layers). The data in that layer will be summed according to the weight scheme chosen for the three value dimensions. It consists of vectors of integers and scalars
-
-The fourth network layer sums data from the vectors of integers and scalars from the third layer into a mutually suppressive thresholding system. The vector data is split from vectors into scalars. Each node of the fourth layer represents one of the elements of the vectors.  Each node of the fourth layer fills a thresholding function and outputs a single boolean number, all, except for one of which being 0 (not chosen)  while one of which is 1 (chosen).
+This section is currently blank. 
 
 
 ## 6.4 Other References
