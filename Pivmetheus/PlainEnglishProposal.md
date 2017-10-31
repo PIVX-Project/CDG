@@ -38,6 +38,8 @@ Power voting can substantially seperate large from small investors by offering v
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ![alt text](./images/N2votesperpiv.png "")
 ![alt text](../../../raw/master/Pivmetheus/images/N2votesperpiv.png "")
+![alt text](https://github.com/mgshightech/blob/master/Pivmetheus/images/N2votesperpiv.png "")
+
 
 
 
