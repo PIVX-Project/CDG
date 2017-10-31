@@ -35,7 +35,7 @@ Having multiple separate voting layers that differ from one another in character
 
 Power voting can substantially seperate large from small investors by offering vote power that changes with account (public key holding) size.  We will use two separate profiles.  One profile which favors small investors in voting power looks like the following image with votes per piv on the vertical axis and pivs on the horizontal axis.
 
-![image blocked](./images/N2votesperpiv.png "N^2 layer votes per piv account size profile")
+![image blocked](./images/N2votesperpiv2.png "N^2 layer votes per piv account size profile")
 
 The voting layer which favors large investors uses a votes/piv profile that looks like the following image. Once again, votes per piv on the vertical axis and pivs on the horizontal axis. 
 
