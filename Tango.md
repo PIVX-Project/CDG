@@ -66,7 +66,7 @@ This method is as secure as the current PIVX security/reward system and the addi
  
 ### Improvements and comments
          
-It does not give voting power to non-stakers and non-masternodes like a balance-based system would, but at the time same this method does further incentivize staking with voting rewards.  This would therefore exclude users who only utilize mobile or SPV wallets.[1]   However, balance-based voting does have some weaknesses like spam/DOS attacks and privacy concerns. 
+It does not give voting power to non-stakers and non-masternodes like a balance-based system would, but at the same time this method does further incentivize staking with voting rewards.  This would therefore exclude users who only utilize mobile or SPV wallets.[1]   However, balance-based voting does have some weaknesses like spam/DOS attacks and privacy concerns. 
 
          
 Since voting tickets would be issued right up until the superblock, it doesn’t make sense to force users to vote at the last minute in case they earned another ticket right before the deadline.  There are a few ways around this, so the only concern is picking the best one.  For example, early voting could be allowed where the user could state their voting intentions at any point during the voting cycle and any future voting tickets before the super block are automatically applied according to the votes they indicated.  We could also adjust the ticket collection cycle so it doesn’t align exactly with the superblocks. 
@@ -96,7 +96,7 @@ The exchange issue is a valid concern and difficult to manage without hindering 
           
  
  
-Created with direct help and input from:
+Written by @turtleflax with direct help and input from:
 
 derek_hansen @derekcloud
 
