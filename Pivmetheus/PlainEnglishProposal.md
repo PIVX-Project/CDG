@@ -79,6 +79,9 @@ There is in the beginning no need to adjust the vote balance between masternodes
 Vote options which are not blocked by layers pass to the system wide iterative ranked vote where each layer (N^2,S,I)  receives 1/3 of the vote weight.  The winning option of that vote passes and is accepted by the PIVX community. 
 
 ## Calibration
+
+![image blocked](./images/calibratelowres.png "calibration of audio circuit feedback loop")
+
 Until we actually run the system, its behavior can not be entirely predicted.  Some have expressed fears of deadlock and other potential problems.  These kinds of issues are dealt with by means of tuning parameters.  Tuning parameters are slight adjustments to the voting math in order to perfect its behavior.  To begin with, for example, we will add 5% extra weight to the null (do nothing) option for the final vote counting.  This helps assure us that the proposals that are passed are high quality.  Each layer will also block proposal options on net negative vote count. In case of deadlock, this parameter could be adjusted, blocking could for example be moved back to -5% total layer vote in order to block. 
 
 ## Meta-Voting 
